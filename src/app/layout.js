@@ -18,7 +18,9 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         {/* navbar section end */}
         {/* content section start */}
-        {children}
+        <div className="min-h-screen">
+          {children}
+        </div>
         {/* content section end */}
         {/* footer section start */}
         <Footer></Footer>
