@@ -1,4 +1,6 @@
+
 import BrandLogo from "./components/home/BrandLogo";
+import OurGallery from "./components/home/OurGallery";
 import Support from "./components/home/Support";
 
 
@@ -9,8 +11,11 @@ const HomePage = () => {
       {/* support section start */}
       <Support></Support>
       {/* support section end */}
+      {/* ourGallery section start */}
+      <OurGallery></OurGallery>
+      {/* ourGallery section end */}
       {/* brandLogo section start */}
-      <BrandLogo></BrandLogo>
+      {/* <BrandLogo></BrandLogo> */}
       {/* brandLogo section end */}
     </div>
   );
