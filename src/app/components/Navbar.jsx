@@ -20,8 +20,8 @@ const Navbar = () => {
     <>
       {/* content section start */}
       {/* desktop section start */}
-      <div className='hidden md:block h-20 shadow-md w-full'>
-        <div className="container h-full w-full mx-auto md:px-5 lg:px-10 xl:px-12 ">
+      <div className='hidden md:block h-20 w-full'>
+        <div className="container h-full w-full mx-auto md:px-5 lg:px-10 xl:px-12">
           <div className="md:flex md:justify-between md:items-center h-full">
             {/* logo section start */}
               <Image src={Logo} alt='logo' className='md:w-[10%] lg:w-[9%] xl:w-[10%] md:h-8 lg:h-8 xl:h-10'></Image>
