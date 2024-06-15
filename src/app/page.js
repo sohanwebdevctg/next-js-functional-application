@@ -19,7 +19,7 @@ const HomePage = () => {
       <RecentlyView></RecentlyView>
       {/* recentlyView section end */}
       {/* brandLogo section start */}
-      {/* <BrandLogo></BrandLogo> */}
+      <BrandLogo></BrandLogo>
       {/* brandLogo section end */}
     </div>
   );
