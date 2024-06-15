@@ -15,25 +15,33 @@ import livingroomchair from '../../../../public/gallery/livingroomchair.jpg'
 
 const OurGallery = () => {
   return (
-    <div className="py-14">
+    <div className="py-10">
       {/* content section start */}
       <div className='container h-full w-full mx-auto px-5 md:px-5 lg:px-10 xl:px-12'>
+      {/* title section start */}
+      <div className="mb-5 text-center">
+        <h1 className="text-2xl sm:text-2xl md:text-xl lg:text-3xl xl:text-4xl">Our Gallery</h1>
+      </div>
+      {/* title section end */}
       {/* item section start */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 xl:gap-5">
         {/* item1 section start */}
         <div className="sm:flex sm:justify-between sm:items-center gap-3">
           {/* left item start */}
-          <div className="flex-1">
-            <Image src={room1} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+            <Image src={room1} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+            <span className="absolute bottom-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Window Room</span>
           </div>
           {/* left item end */}
           {/* right item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
-            <div className="flex-1">
-              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute top-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
-            <div className="flex-1">
-              <Image src={table} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute top-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
           </div>
           {/* right item end */}
@@ -42,17 +50,20 @@ const OurGallery = () => {
         {/* item2 section start */}
         <div className="sm:flex sm:justify-between sm:items-center gap-3">
           {/* left item start */}
-          <div className="flex-1">
-            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+            <Image src={room1} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+            <span className="absolute top-3 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Window Room</span>
           </div>
           {/* left item end */}
           {/* right item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
-            <div className="flex-1">
-              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
-            <div className="flex-1">
-              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
           </div>
           {/* right item end */}
@@ -62,40 +73,46 @@ const OurGallery = () => {
         <div className="sm:flex sm:justify-between sm:items-center gap-3">
           {/* left item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
-            <div className="flex-1">
-              <Image src={sofasidetable} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
-            <div className="flex-1">
-              <Image src={wallShowcase} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute bottom-2 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
           </div>
           {/* left item end */}
           {/* right item start */}
-          <div className="flex-1">
-            <Image src={room3} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+            <Image src={room1} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+            <span className="absolute top-3 right-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Window Room</span>
           </div>
           {/* right item end */}
         </div>
         {/* item3 section end */}
-        {/* item4 section start */}
+        {/* item1 section start */}
         <div className="sm:flex sm:justify-between sm:items-center gap-3">
           {/* left item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
-            <div className="flex-1">
-              <Image src={wallWrod} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute top-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
-            <div className="flex-1">
-              <Image src={livingroomchair} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+              <span className="absolute top-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Single Sofa</span>
             </div>
           </div>
           {/* left item end */}
           {/* right item start */}
-          <div className="flex-1">
-            <Image src={room4} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          <div className="flex-1 relative border-4 border-slate-200 shadow-lg overflow-hidden">
+            <Image src={room1} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 hover:scale-105 animation duration-500"></Image>
+            <span className="absolute bottom-3 left-2 bg-red-600 text-white text-[8px] py-1 px-2 rounded-md">Window Room</span>
           </div>
           {/* right item end */}
         </div>
-        {/* item4 section end */}
+        {/* item1 section end */}
       </div>
       {/* item section end */}
       </div>
