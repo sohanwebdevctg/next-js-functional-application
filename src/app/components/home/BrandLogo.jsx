@@ -24,7 +24,7 @@ import brand12 from '../../../../public/brandlogo/brand12.png'
 
 const BrandLogo = () => {
   return (
-    <div className='bg-slate-300'>
+    <div className='bg-[#F5F5F5]'>
       <div className="py-5 sm:py-5 md:py-5 lg:py-8 xl:py-10">
       {/* content section start */}
       <Swiper
@@ -35,7 +35,7 @@ const BrandLogo = () => {
           loop: true,
         }}
         modules={[FreeMode, Autoplay]}
-        className="mySwiper"
+        className="mySwiper px-2"
         breakpoints={{
           // when window width is >= 320px
           320: {
