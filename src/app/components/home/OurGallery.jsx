@@ -1,10 +1,16 @@
 import Image from "next/image";
 import room1 from '../../../../public/gallery/room1.jpg'
 import room2 from '../../../../public/gallery/room2.jpg'
+import room3 from '../../../../public/gallery/room3.jpg'
+import room4 from '../../../../public/gallery/room4.jpg'
 import soffa from '../../../../public/gallery/soffa.png'
 import table from '../../../../public/gallery/table.jpg'
 import drawer from '../../../../public/gallery/drawer.png'
 import smalldrawer from '../../../../public/gallery/smalldrawer.jpg'
+import sofasidetable from '../../../../public/gallery/sofasidetable.jpg'
+import wallShowcase from '../../../../public/gallery/wallShowcase.jpg'
+import wallWrod from '../../../../public/gallery/wallWrod.jpg'
+import livingroomchair from '../../../../public/gallery/livingroomchair.jpg'
 
 
 const OurGallery = () => {
@@ -57,16 +63,16 @@ const OurGallery = () => {
           {/* left item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
             <div className="flex-1">
-              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={sofasidetable} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
             <div className="flex-1">
-              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={wallShowcase} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
           </div>
           {/* left item end */}
           {/* right item start */}
           <div className="flex-1">
-            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <Image src={room3} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
           </div>
           {/* right item end */}
         </div>
@@ -76,16 +82,16 @@ const OurGallery = () => {
           {/* left item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
             <div className="flex-1">
-              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={wallWrod} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
             <div className="flex-1">
-              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={livingroomchair} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
           </div>
           {/* left item end */}
           {/* right item start */}
           <div className="flex-1">
-            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            <Image src={room4} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
           </div>
           {/* right item end */}
         </div>
