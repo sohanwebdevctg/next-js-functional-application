@@ -14,7 +14,7 @@ const Navbar = () => {
   const pathname = usePathname()
 
   // toggle button
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   return (
     <>
