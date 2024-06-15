@@ -21,10 +21,10 @@ const RecentlyView = () => {
       {/* item section start */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 xl:gap-5">
         {/* item1 section start */}
-        <div className="overflow-hidden rounded-lg shadow-lg relative">
+        <div className="overflow-hidden rounded-lg shadow-lg mainCon">
           <Image src={view1} alt="this is view image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-48"></Image>
           {/* details section start */}
-          <div className="absolute bg-black bg-opacity-30 left-0 right-0 bottom-0 z-10 py-1 px-2">
+          <div className="subCon bg-black bg-opacity-30 py-1 px-2">
             <ul>
               <li className="flex justify-between items-center">
                 <h2 className="text-sm text-slate-200 font-bold italic">Bed Room</h2>
@@ -33,12 +33,12 @@ const RecentlyView = () => {
               <li><p className="text-xs text-slate-200">this is bed room</p></li>
               <li className="flex justify-between items-center">
                 <span className="flex items-center">
-                  <FaStar className="text-yellow-500 text-[10px]"></FaStar>
-                  <FaStar className="text-yellow-500 text-[10px]"></FaStar>
-                  <FaStar className="text-yellow-500 text-[10px]"></FaStar>
-                  <FaStar className="text-yellow-500 text-[10px]"></FaStar>
-                  <FaStar className="text-yellow-500 text-[10px]"></FaStar>
-                  <span className="text-[10px] text-slate-200 ml-1">4.7</span>
+                  <FaStar className="text-yellow-500 text-xs"></FaStar>
+                  <FaStar className="text-yellow-500 text-xs"></FaStar>
+                  <FaStar className="text-yellow-500 text-xs"></FaStar>
+                  <FaStar className="text-yellow-500 text-xs"></FaStar>
+                  <FaStar className="text-yellow-500 text-xs"></FaStar>
+                  <span className="text-xs text-slate-200 ml-1">4.7</span>
                 </span>
                 <span className="flex items-center gap-1">
                   <AiFillPlusCircle className="text-slate-200 text-xl"></AiFillPlusCircle>
