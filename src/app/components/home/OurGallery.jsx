@@ -9,7 +9,7 @@ import smalldrawer from '../../../../public/gallery/smalldrawer.jpg'
 
 const OurGallery = () => {
   return (
-    <div>
+    <div className="py-14">
       {/* content section start */}
       <div className='container h-full w-full mx-auto px-5 md:px-5 lg:px-10 xl:px-12'>
       {/* item section start */}
@@ -24,15 +24,72 @@ const OurGallery = () => {
           {/* right item start */}
           <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
             <div className="flex-1">
-            <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={soffa} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
             <div className="flex-1">
-            <Image src={table} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+              <Image src={table} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
             </div>
           </div>
           {/* right item end */}
         </div>
         {/* item1 section end */}
+        {/* item2 section start */}
+        <div className="sm:flex sm:justify-between sm:items-center gap-3">
+          {/* left item start */}
+          <div className="flex-1">
+            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          </div>
+          {/* left item end */}
+          {/* right item start */}
+          <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
+            <div className="flex-1">
+              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+            <div className="flex-1">
+              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+          </div>
+          {/* right item end */}
+        </div>
+        {/* item2 section end */}
+        {/* item3 section start */}
+        <div className="sm:flex sm:justify-between sm:items-center gap-3">
+          {/* left item start */}
+          <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
+            <div className="flex-1">
+              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+            <div className="flex-1">
+              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+          </div>
+          {/* left item end */}
+          {/* right item start */}
+          <div className="flex-1">
+            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          </div>
+          {/* right item end */}
+        </div>
+        {/* item3 section end */}
+        {/* item4 section start */}
+        <div className="sm:flex sm:justify-between sm:items-center gap-3">
+          {/* left item start */}
+          <div className="mt-3 sm:mt-0 flex-1 flex justify-between items-center gap-2">
+            <div className="flex-1">
+              <Image src={drawer} alt="this is soffa image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+            <div className="flex-1">
+              <Image src={smalldrawer} alt="this is table image" className="w-full h-20 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+            </div>
+          </div>
+          {/* left item end */}
+          {/* right item start */}
+          <div className="flex-1">
+            <Image src={room2} alt="this is room image" className="w-full h-32 sm:h-32 md:h-28 lg:h-32 xl:h-40 border-4 border-slate-200 shadow-lg"></Image>
+          </div>
+          {/* right item end */}
+        </div>
+        {/* item4 section end */}
       </div>
       {/* item section end */}
       </div>
