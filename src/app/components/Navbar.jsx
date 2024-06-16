@@ -47,7 +47,7 @@ const Navbar = () => {
       </div>
       {/* desktop section end */}
       {/* mobile section start */}
-      <div className='h-20 block md:hidden shadow-md'>
+      <div className='h-20 block md:hidden'>
         <div className='flex justify-between items-center px-4 sm:px-8 h-full'>
           {/* logo section start */}
           <Image src={Logo} alt='logo' className='w-[22%] sm:w-[18%]  h-9'></Image>
