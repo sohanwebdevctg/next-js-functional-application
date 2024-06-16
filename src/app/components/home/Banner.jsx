@@ -1,4 +1,5 @@
 import { FaArrowRight, FaInstagram, FaLinkedin, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
+import BannerSlider from "./BannerSlider";
 
 
 const Banner = () => {
@@ -9,7 +10,7 @@ const Banner = () => {
         {/* item section start */}
         <div className='sm:flex sm:justify-between sm:items-center w-full h-full'>
           {/* left item section start */}
-          <div className="flex-1 space-y-3">
+          <div className="sm:w-[50%] space-y-3">
             {/* small title start */}
             <h6 className='text-[8px] lg:text-[10px] uppercase tracking-widest'>top trending 2024</h6>
             {/* small title end */}
@@ -31,7 +32,9 @@ const Banner = () => {
           </div>
           {/* left item section end */}
           {/* right item section start */}
-          <div className="flex-1"></div>
+          <div className="sm:w-[50%]">
+            <BannerSlider></BannerSlider>
+          </div>
           {/* right item section end */}
         </div>
         {/* item section end */}
