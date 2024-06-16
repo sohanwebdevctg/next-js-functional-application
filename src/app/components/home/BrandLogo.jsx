@@ -24,8 +24,8 @@ import brand12 from '../../../../public/brandlogo/brand12.png'
 
 const BrandLogo = () => {
   return (
-    <div className='bg-[#F5F5F5]'>
-      <div className="py-5 sm:py-5 md:py-5 lg:py-8 xl:py-10">
+    <div className='px-4'>
+      <div className="bg-[#F5F5F5] container mx-auto px-3 sm:px-5 md:px-2 lg:px-10 xl:px-12 py-4 sm:py-6 md:py-7 lg:py-8 xl:py-8">
       {/* content section start */}
       <Swiper
         spaceBetween={20}
@@ -62,84 +62,84 @@ const BrandLogo = () => {
         {/* brand1 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand1} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand1} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand1 section end */}
         {/* brand2 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand2} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand2} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand2 section end */}
         {/* brand3 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand3} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand3} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand3 section end */}
         {/* brand4 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand4} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand4} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand4 section end */}
         {/* brand5 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand5} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand5} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand5 section end */}
         {/* brand6 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand6} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand6} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand6 section end */}
         {/* brand7 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand7} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand7} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand7 section end */}
         {/* brand8 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand8} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand8} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand8 section end */}
         {/* brand9 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand9} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand9} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand9 section end */}
         {/* brand10 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand10} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand10} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand10 section end */}
         {/* brand11 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand11} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand11} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand11 section end */}
         {/* brand12 section start */}
         <SwiperSlide>
           <div className='overflow-hidden'>
-            <Image src={brand12} alt="brandlogo" className="w-full h-16"/>
+            <Image src={brand12} alt="brandlogo" className="w-96 h-12"/>
           </div>
         </SwiperSlide>
         {/* brand12 section end */}
