@@ -4,13 +4,13 @@ import BannerSlider from "./BannerSlider";
 
 const Banner = () => {
   return (
-    <div className='h-full xl:h-[400px] px-0 sm:px-4 md:px-4'>
+    <div className='h-full xl:h-[420px] px-0 sm:px-4 md:px-4'>
       {/* content section start */}
       <div className='container mx-auto bg-[#F5F5F5] h-full w-full py-10 px-3 sm:px-5 md:px-4 lg:px-10 xl:px-12'>
         {/* item section start */}
         <div className='sm:flex sm:justify-between sm:items-center w-full h-full'>
           {/* left item section start */}
-          <div className="sm:w-[50%] space-y-3">
+          <div className="w-full sm:w-[50%] space-y-3">
             {/* small title start */}
             <h6 className='text-[8px] lg:text-[10px] uppercase tracking-widest'>top trending 2024</h6>
             {/* small title end */}
@@ -32,7 +32,7 @@ const Banner = () => {
           </div>
           {/* left item section end */}
           {/* right item section start */}
-          <div className="sm:w-[50%]">
+          <div className="w-full sm:w-[50%] py-4 sm:py-2">
             <BannerSlider></BannerSlider>
           </div>
           {/* right item section end */}
