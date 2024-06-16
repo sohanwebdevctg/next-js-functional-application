@@ -11,21 +11,21 @@ const Banner = () => {
           {/* left item section start */}
           <div className="flex-1 space-y-3">
             {/* small title start */}
-            <h6 className='text-[8px] uppercase tracking-widest'>top trending 2024</h6>
+            <h6 className='text-[8px] lg:text-[10px] uppercase tracking-widest'>top trending 2024</h6>
             {/* small title end */}
             {/* title start */}
-            <h4 className="text-2xl sm:text-xl md:text-2xl xl:text-5xl font-bold">Save <span className='text-red-600'>Money</span> <br></br>Live Better</h4>
+            <h4 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl font-bold">Save <span className='text-red-600'>Money</span> <br></br>Live Better</h4>
             {/* title end */}
             {/* description start */}
-            <p className="text-xs sm:text-[10px] md:text-xs lg:text-sm tracking-widest text-gray-500">We have furniture designs in solid wood, <br></br>engineered wood and metal</p>
+            <p className="text-xs sm:text-[10px] md:text-xs lg:text-sm xl:text-base tracking-widest text-gray-500">We have furniture designs in solid wood, <br></br>engineered wood and metal</p>
             {/* description end */}
             <div className="flex items-center gap-3">
-              <h4 className='text-red-500 text-base sm:text-sm md:text-sm lg:text-base flex items-center'>Follow Us <FaArrowRight className="ml-2 text-base sm:text-sm md:text-sm lg:text-base"></FaArrowRight></h4>
+              <h4 className='text-red-500 text-base sm:text-sm md:text-sm lg:text-base xl:text-base flex items-center'>Follow Us <FaArrowRight className="ml-2 text-base sm:text-sm md:text-sm lg:text-base xl:text-base"></FaArrowRight></h4>
               <ul className="flex items-center gap-1">
-                <li><FaFacebookSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
-                <li><FaInstagram className="text-2xl sm:text-xl md:text-xl lg:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
-                <li><FaLinkedin className="text-2xl sm:text-xl md:text-xl lg:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
-                <li><FaTwitterSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
+                <li><FaFacebookSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
+                <li><FaInstagram className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
+                <li><FaLinkedin className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
+                <li><FaTwitterSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
               </ul>
             </div>
           </div>
