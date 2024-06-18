@@ -104,13 +104,13 @@ const Product = () => {
             slidesPerView: 5,
           },
         }}
-        className="productCardSwiper p-2">
+        className="productCardSwiper">
           {/* item1 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image1} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image1} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -146,11 +146,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item1 end */}
           {/* item2 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image2} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image2} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -186,11 +186,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item2 end */}
           {/* item3 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image3} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image3} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -226,11 +226,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item3 end */}
           {/* item4 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image4} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image4} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -266,11 +266,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item4 end */}
           {/* item5 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image5} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image5} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -306,11 +306,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item5 end */}
           {/* item6 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image3} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image3} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -346,11 +346,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item6 end */}
           {/* item7 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image1} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image1} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -386,11 +386,11 @@ const Product = () => {
           </SwiperSlide>
           {/* item7 end */}
           {/* item8 start */}
-          <SwiperSlide>
+          <SwiperSlide className="px-1 py-3">
             <div>
             {/* image section start */}
-            <div>
-              <Image src={image5} alt="logo" className='w-full h-44'></Image>
+            <div className="bg-white">
+              <Image src={image5} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
