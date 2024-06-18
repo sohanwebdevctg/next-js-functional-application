@@ -15,7 +15,7 @@ import livingroomchair from '../../../../public/gallery/livingroomchair.jpg'
 
 const OurGallery = () => {
   return (
-    <div className="my-5 px-4 ">
+    <div className="my-5 px-4">
       {/* content section start */}
       <div className='container bg-[#F5F5F5] h-full w-full mx-auto py-10 md:py-8 lg:py-14 xl:py-16 px-3 sm:px-5 md:px-2 lg:px-10 xl:px-12'>
       {/* title section start */}
