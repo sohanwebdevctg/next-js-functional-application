@@ -1,11 +1,8 @@
-
 import Banner from "./components/home/Banner";
 import BrandLogo from "./components/home/BrandLogo";
 import OurGallery from "./components/home/OurGallery";
 import RecentlyView from "./components/home/RecentlyView";
 import Support from "./components/home/Support";
-
-
 
 const HomePage = () => {
   return (
@@ -19,12 +16,12 @@ const HomePage = () => {
       {/* ourGallery section start */}
       <OurGallery></OurGallery>
       {/* ourGallery section end */}
-      {/* recentlyView section start */}
-      <RecentlyView></RecentlyView>
-      {/* recentlyView section end */}
       {/* brandLogo section start */}
       <BrandLogo></BrandLogo>
       {/* brandLogo section end */}
+      {/* recentlyView section start */}
+      <RecentlyView></RecentlyView>
+      {/* recentlyView section end */}
     </div>
   );
 };
