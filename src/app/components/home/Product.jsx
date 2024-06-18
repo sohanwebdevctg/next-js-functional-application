@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import Link from 'next/link';
 
 const Product = () => {
   return (
@@ -63,7 +64,7 @@ const Product = () => {
       </div>
       {/* title and item section end */}
       {/* product section start */}
-      <div className="mt-5">
+      <div className="xl:mt-10">
         <Swiper
         navigation={true}
         modules={[Navigation]}
@@ -96,15 +97,21 @@ const Product = () => {
           },
         }}
         className="productCardSwiper">
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <h1>hello world</h1>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <h1>hello world</h1>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <h1>hello world</h1>
+            </Link>
+          </SwiperSlide>
         </Swiper>
       </div>
       {/* product section end */}
