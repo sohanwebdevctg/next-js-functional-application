@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 const BannerSlider = () => {
   return (
-    <div className='sliderCon bg-black w-56 h-56 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-80 xl:h-80 rounded-full mx-auto'>
+    <div className='sliderCon bg-black w-56 h-56 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-80 xl:h-80 rounded-full mx-auto overflow-hidden'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -20,13 +20,22 @@ const BannerSlider = () => {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        navigation={true}
         modules={[Autoplay]}
-        className="mySwiper "
+        className="bannerSwiper"
       >
         <SwiperSlide>
           <div className='overflow-hidden'>
             <Image src={image1} alt='this is image' className='w-56 h-56 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-80 xl:h-80 mx-auto text-center p-5'></Image>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='overflow-hidden'>
+            <Image src={image2} alt='this is image' className='w-56 h-56 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-80 xl:h-80 mx-auto text-center p-5'></Image>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='overflow-hidden'>
+            <Image src={image3} alt='this is image' className='w-56 h-56 sm:w-48 sm:h-48 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-80 xl:h-80 mx-auto text-center p-5'></Image>
           </div>
         </SwiperSlide>
 
