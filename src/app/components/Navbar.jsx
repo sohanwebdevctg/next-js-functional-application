@@ -16,11 +16,15 @@ const Navbar = () => {
   // toggle button
   const [open, setOpen] = useState(false)
 
+  // window scroll
+  const [scrollData, setScrollData] = useState(false)
+
+
   return (
     <>
       {/* content section start */}
       {/* desktop section start */}
-      <div className='hidden md:block h-20 w-full'>
+      <div className={`${scrollData ? 'fixed top-0 right-0 left-0 z-10' : 'sticky'} hidden md:block h-20 w-full`}>
         <div className="container h-full w-full mx-auto md:px-5 lg:px-10 xl:px-12">
           <div className="md:flex md:justify-between md:items-center h-full">
             {/* logo section start */}
