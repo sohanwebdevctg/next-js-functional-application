@@ -69,7 +69,7 @@ const Navbar = () => {
       </div>
       {/* desktop section end */}
       {/* mobile section start */}
-      <div className='h-20 block md:hidden'>
+      <div className={`${scrollData ? 'fixed top-0 right-0 left-0 z-30 duration-300 bg-[#F5F5F5] shadow-lg' : 'sticky duration-300 z-0 bg-white'} h-20 block md:hidden`}>
         <div className='flex justify-between items-center px-4 sm:px-8 h-full'>
           {/* logo section start */}
           <Image src={Logo} alt='logo' className='w-[22%] sm:w-[18%]  h-9'></Image>
@@ -81,7 +81,7 @@ const Navbar = () => {
           {/* toggle section end */}
         </div>
         {/* toggle div start */}
-        <div className={`${open ? 'top-[82px]' : '-top-[100%]'} animation duration-500 z-20 fixed bg-white bg-opacity-90 w-full h-full pt-5`}>
+        <div className={`${open ? 'top-[80px]' : '-top-[100%]'} ${scrollData ? 'bg-[#F5F5F5] bg-opacity-90' : ' bg-white bg-opacity-90'} duration-500 z-30 fixed  w-full h-full pt-5`}>
           {/* link section start */}
           <ul className='text-center space-y-5'>
             <li><Link className={`link ${pathname === '/' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/">HOME</Link></li>
