@@ -6,7 +6,7 @@ import { FaShoppingCart, FaHeart, FaSearch } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
 
@@ -19,12 +19,30 @@ const Navbar = () => {
   // window scroll
   const [scrollData, setScrollData] = useState(false)
 
+  // scroll event function
+  useEffect(() => {
+
+    const handleScroll = () => {
+      if(window.scrollY > 180){
+        setScrollData(true)
+      }else{
+        setScrollData(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+
+  },[])
 
   return (
     <>
       {/* content section start */}
       {/* desktop section start */}
-      <div className={`${scrollData ? 'fixed top-0 right-0 left-0 z-10' : 'sticky'} hidden md:block h-20 w-full`}>
+      <div className={`${scrollData ? 'fixed top-0 right-0 left-0 z-10 duration-300 bg-[#F5F5F5] shadow-lg' : 'sticky duration-300 z-0 bg-white'} hidden md:block h-20 w-full`}>
         <div className="container h-full w-full mx-auto md:px-5 lg:px-10 xl:px-12">
           <div className="md:flex md:justify-between md:items-center h-full">
             {/* logo section start */}
