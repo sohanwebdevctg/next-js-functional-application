@@ -34,7 +34,7 @@ const Footer = () => {
           {/* item3 section start */}
           <div>
             <h1 className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-lg uppercase font-bold mb-2 sm:mb-1 md:mb-2 lg:mb-2 xl:mb-2'>Help</h1>
-            <ul className='space-y-1 sm:space-y-0 md:space-y-1 lg:space-y-1 xl:space-y-2'>
+            <ul className='space-y-1 sm:space-y-0 md:space-y-1 lg:space-y-1 xl:space-y-1'>
               <li className='hover:text-red-500 duration-300 text-gray-500'><Link href="/" className='text-xs sm:text-[11px] md:text-[13px] lg:text-sm xl:text-[15px]'>About Us</Link></li>
               <li className='hover:text-red-500 duration-300 text-gray-500'><Link href="/" className='text-xs sm:text-[11px] md:text-[13px] lg:text-sm xl:text-[15px]'>Careers</Link></li>
               <li className='hover:text-red-500 duration-300 text-gray-500'><Link href="/" className='text-xs sm:text-[11px] md:text-[13px] lg:text-sm xl:text-[15px]'>Newsroom</Link></li>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li><FaInstagram className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
                 <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
                 <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
-                <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaYoutube></li>
+                <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl hover:text-red-500 duration-500"></FaYoutube></li>
               </ul>
             {/* icon section end */}
           </div>
