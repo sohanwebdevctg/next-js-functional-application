@@ -44,7 +44,7 @@ const Footer = () => {
           {/* item3 section end */}
           {/* item4 section start */}
           <div className='flex flex-col justify-between mx-auto w-full h-full gap-2'>
-            <div className='bg-black bg-opacity-55 shadow-xl rounded-tl-[60px] rounded-br-[60px] pr-3 sm:pr-5 md:pr-5 lg:pr-5 xl:pr-5 flex flex-col justify-center gap-0 xl:gap-2 w-[100%] h-full'>
+            <div className='bg-black bg-opacity-55 shadow-xl rounded-tl-[50px] rounded-br-[50px] pr-5 sm:pr-5 md:pr-5 lg:pr-5 xl:pr-5 flex flex-col justify-center gap-0 xl:gap-2 w-[100%] h-full'>
               <ul className="text-right">
                 <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">+8801632937291</Link></li>
                 <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-red-500">xcodeemail@gmail.com</Link></li>
@@ -56,10 +56,10 @@ const Footer = () => {
             </div>
             {/* icon section start */}
             <ul className="flex justify-around items-center">
-                <li><FaFacebookSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
-                <li><FaInstagram className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
-                <li><FaLinkedin className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
-                <li><FaTwitterSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
+                <li><FaFacebookSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
+                <li><FaInstagram className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
+                <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
+                <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
                 <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaYoutube></li>
               </ul>
             {/* icon section end */}
