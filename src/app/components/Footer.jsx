@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '../../../public/logo/logo.png'
+import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -43,15 +44,25 @@ const Footer = () => {
           </div>
           {/* item3 section end */}
           {/* item4 section start */}
-          <div className='bg-black bg-opacity-55 shadow-xl rounded-tl-[60px] rounded-br-[60px] pr-3 sm:pr-5 md:pr-5 lg:pr-5 xl:pr-5 flex flex-col justify-center gap-0 xl:gap-2'>
-            <ul className="text-right">
-              <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">+8801632937291</Link></li>
-              <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-red-500">xcodeemail@gmail.com</Link></li>
-            </ul>
-            <ul className="text-right">
-              <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">900-140 10th Avenue SE</Link></li>
-              <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">Calgary, AB T2G OR1</Link></li>
-            </ul>
+          <div className='flex flex-col justify-between mx-auto w-full h-full gap-1'>
+            <div className='bg-black bg-opacity-55 shadow-xl rounded-tl-[60px] rounded-br-[60px] pr-3 sm:pr-5 md:pr-5 lg:pr-5 xl:pr-5 flex flex-col justify-center gap-0 xl:gap-2 w-[100%] h-full'>
+              <ul className="text-right">
+                <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">+8801632937291</Link></li>
+                <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-red-500">xcodeemail@gmail.com</Link></li>
+              </ul>
+              <ul className="text-right">
+                <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">900-140 10th Avenue SE</Link></li>
+                <li><Link href="/" className="text-[9px] sm:text-[9px] md:text-[11px] lg:text-xs xl:text-xs text-gray-300">Calgary, AB T2G OR1</Link></li>
+              </ul>
+            </div>
+            {/* icon section start */}
+            <ul className="flex items-center gap-1">
+                <li><FaFacebookSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
+                <li><FaInstagram className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
+                <li><FaLinkedin className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
+                <li><FaTwitterSquare className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
+              </ul>
+            {/* icon section end */}
           </div>
           {/* item4 section end */}
 
