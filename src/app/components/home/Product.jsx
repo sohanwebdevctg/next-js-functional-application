@@ -14,6 +14,7 @@ import image4 from '../../../../public/productcard/roomsofa/image4.png'
 import image5 from '../../../../public/productcard/roomsofa/image5.png'
 import { FaHeart, FaStar } from 'react-icons/fa';
 import { AiFillPlusCircle } from 'react-icons/ai';
+import product from '@/fetchFunction/product';
 
 //product items
 const products = [
@@ -123,7 +124,8 @@ const products = [
   }
 ]
 
-const Product = () => {
+const Product =  () => {
+
 
 
   return (
@@ -226,7 +228,7 @@ const Product = () => {
             </div>
             {/* image section end */}
             {/* description section start */}
-            <Link href="/">
+            <Link href={`../../single/${data.id}`}>
             {/* details section start */}
             <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
               <ul>
@@ -234,7 +236,7 @@ const Product = () => {
                   <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">{data.name}</h2>
                   <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
                 </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
+                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">{data.details}</p></li>
                 <li className="flex justify-between items-center">
                   <span className="flex items-center">
                     <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
@@ -242,7 +244,7 @@ const Product = () => {
                     <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
                     <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
                     <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
+                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">{data.rating}</span>
                   </span>
                   <span className="flex items-center gap-1">
                     <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
@@ -259,7 +261,6 @@ const Product = () => {
         </SwiperSlide>
             )
           }
-          
         </Swiper>
       </div>
       {/* productCard section end */}
