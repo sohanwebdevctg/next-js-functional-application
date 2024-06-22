@@ -15,6 +15,114 @@ import image5 from '../../../../public/productcard/roomsofa/image5.png'
 import { FaHeart, FaStar } from 'react-icons/fa';
 import { AiFillPlusCircle } from 'react-icons/ai';
 
+//product items
+const products = [
+  {
+    id:1,
+    image : image1,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:2,
+    image : image2,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:3,
+    image : image1,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:4,
+    image : image3,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:5,
+    image : image4,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:6,
+    image : image5,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:7,
+    image : image3,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:8,
+    image : image2,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:9,
+    image : image1,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:10,
+    image : image4,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:11,
+    image : image5,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:12,
+    image : image1,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  },
+  {
+    id:13,
+    image : image2,
+    name: 'Bed room',
+    price: 40,
+    details: 'this is bed room',
+    rating: 4.7
+  }
+]
+
 const Product = () => {
   return (
     <div className='px-2'>
@@ -145,286 +253,6 @@ const Product = () => {
             </div>
           </SwiperSlide>
           {/* item1 end */}
-          {/* item2 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image2} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item2 end */}
-          {/* item3 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image3} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item3 end */}
-          {/* item4 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image4} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item4 end */}
-          {/* item5 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image5} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item5 end */}
-          {/* item6 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image3} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item6 end */}
-          {/* item7 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image1} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item7 end */}
-          {/* item8 start */}
-          <SwiperSlide className="px-1 py-3">
-            <div>
-            {/* image section start */}
-            <div className="bg-white">
-              <Image src={image5} alt="logo" className='w-full h-52'></Image>
-            </div>
-            {/* image section end */}
-            {/* description section start */}
-            <Link href="/">
-            {/* details section start */}
-            <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
-                <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
-                  <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
-                </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
-                <li className="flex justify-between items-center">
-                  <span className="flex items-center">
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
-                    <span className="text-xs md:text-[9px] xl:text-xs text-black ml-1">4.7</span>
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <AiFillPlusCircle className="text-red-500 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
-                    <FaHeart className="text-red-500 text-lg md:text-sm xl:text-xl"></FaHeart>
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* details section end */}
-            </Link>
-            {/* description section end */}
-            </div>
-          </SwiperSlide>
-          {/* item8 end */}
         </Swiper>
       </div>
       {/* productCard section end */}
