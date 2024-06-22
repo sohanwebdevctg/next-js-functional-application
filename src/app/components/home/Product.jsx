@@ -14,7 +14,6 @@ import image4 from '../../../../public/productcard/roomsofa/image4.png'
 import image5 from '../../../../public/productcard/roomsofa/image5.png'
 import { FaHeart, FaStar } from 'react-icons/fa';
 import { AiFillPlusCircle } from 'react-icons/ai';
-import product from '@/fetchFunction/product';
 
 //product items
 const products = [
