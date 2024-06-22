@@ -35,7 +35,7 @@ const products = [
   },
   {
     id:3,
-    image : image1,
+    image : image5,
     name: 'Bed room',
     price: 40,
     details: 'this is bed room',
@@ -124,6 +124,8 @@ const products = [
 ]
 
 const Product = () => {
+
+
   return (
     <div className='px-2'>
       {/* content section start */}
@@ -213,12 +215,14 @@ const Product = () => {
           },
         }}
         className="productCardSwiper">
-          {/* item1 start */}
-          <SwiperSlide className="px-1 py-3">
+          {
+            products.map((data) => 
+          <SwiperSlide key={data.id} className="px-1 py-3">
+            {/* item start */}
             <div>
             {/* image section start */}
             <div className="bg-white">
-              <Image src={image1} alt="logo" className='w-full h-52'></Image>
+              <Image src={data.image} alt="logo" className='w-full h-52'></Image>
             </div>
             {/* image section end */}
             {/* description section start */}
@@ -227,7 +231,7 @@ const Product = () => {
             <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
               <ul>
                 <li className="flex justify-between items-center">
-                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">Bed Room</h2>
+                  <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">{data.name}</h2>
                   <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
                 </li>
                 <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">this is bed room</p></li>
@@ -251,8 +255,11 @@ const Product = () => {
             </Link>
             {/* description section end */}
             </div>
-          </SwiperSlide>
-          {/* item1 end */}
+            {/* item end */}
+        </SwiperSlide>
+            )
+          }
+          
         </Swiper>
       </div>
       {/* productCard section end */}
