@@ -74,3 +74,26 @@
 }
 }
 /* swiperAnimation section end */
+
+/* contact banner section start */
+.contactBanner{
+  background-image: url('../../public/contact/contactImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.contactBanner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+/* contact banner section end */
