@@ -61,7 +61,7 @@ const Footer = () => {
                 <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
                 <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
                 <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl hover:text-red-500 duration-500"></FaYoutube></li>
-              </ul>
+            </ul>
             {/* icon section end */}
           </div>
           {/* item4 section end */}

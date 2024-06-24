@@ -1,3 +1,7 @@
+import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitterSquare, FaYoutube, FaFax } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { CgMail } from "react-icons/cg";
+import { FaLocationDot } from "react-icons/fa6";
 
 
 const ContactForm = () => {
@@ -10,14 +14,31 @@ const ContactForm = () => {
           <div className="flex-1 flex flex-col justify-between">
             <h3 className="xl:text-5xl">Let's talk <br></br>on something <span className="text-red-600">great</span> <br></br>together</h3>
             <ul className="space-y-8">
-              <li>+234 8993 98043</li>
-              <li>andreal@gmail.com</li>
-              <li>855-555-5544</li>
-              <li>123 Ctg, Bangladesh</li>
+              <li>
+                <BsFillTelephoneFill></BsFillTelephoneFill>
+                <span>+234 8993 98043</span>
+              </li>
+              <li>
+                <CgMail></CgMail>
+                <span>andreal@gmail.com</span></li>
+              <li>
+                <FaFax></FaFax>
+                <span>855-555-5544</span>
+                </li>
+              <li>
+                <FaLocationDot></FaLocationDot>
+                <span>123 Ctg, Bangladesh</span>
+              </li>
             </ul>
-            <ul>
-              <li>andreal@gmail.com</li>
+            {/* icon section start */}
+            <ul className="flex gap-5 items-center">
+                <li><FaFacebookSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
+                <li><FaInstagram className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
+                <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
+                <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
+                <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl hover:text-red-500 duration-500"></FaYoutube></li>
             </ul>
+            {/* icon section end */}
           </div>
           {/* left item section end */}
           {/* right item section start */}
