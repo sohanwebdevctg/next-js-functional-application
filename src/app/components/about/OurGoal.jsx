@@ -1,4 +1,8 @@
+import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import work from '../../../../public/about/working.jpg';
+import work1 from '../../../../public/about/working1.jpeg';
+
 
 const OurGoal = () => {
   return (
@@ -8,7 +12,9 @@ const OurGoal = () => {
         {/* item section start */}
         <div className='sm:flex sm:justify-between sm:items-center gap-5'>
           {/* left section start */}
-          <div className='flex-1 bg-slate-300 h-[100%]'>
+          <div className='flex-1 relative'>
+            <Image src={work} alt="working image" className="w-4/5 xl:w-2/3 h-80 xl:h-96 p-3 xl:p-5 bg-[#F5F5F5] shadow-lg"></Image>
+            <Image src={work1} alt="working image" className="w-40 h-44 xl:w-52 xl:h-60 absolute top-20 right-[3%] xl:top-[25%] xl:right-[20%] rounded-md shadow-lg"></Image>
           </div>
           {/* left section end */}
           {/* right section start */}
