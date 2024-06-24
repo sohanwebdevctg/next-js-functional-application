@@ -6,44 +6,64 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const ContactForm = () => {
   return (
-    <div className="px-0 sm:px-4 md:px-4 my-16">
+    <div className="px-5 sm:px-4 md:px-4 my-16">
       {/* content section start */}
-      <div className='container mx-auto bg-[#F5F5F5] h-full w-full p-10'>
+      <div className='container mx-auto bg-[#F5F5F5] h-full w-full p-6 xl:p-10'>
         <div className="sm:flex sm:justify-around">
           {/* left item section start */}
-          <div className="flex-1 flex flex-col justify-between">
-            <h3 className="xl:text-5xl">Let's talk <br></br>on something <span className="text-red-600">great</span> <br></br>together</h3>
-            <ul className="space-y-8">
-              <li>
-                <BsFillTelephoneFill></BsFillTelephoneFill>
-                <span>+234 8993 98043</span>
+          <div className="flex-1 flex flex-col justify-between space-y-5 sm:space-y-10">
+            <h3 className="text-xl xl:text-5xl">Let's talk <br></br>on something <span className="text-red-600">great</span> <br></br>together</h3>
+            <ul className="space-y-3 xl:space-y-5">
+              <li className="flex gap-1 xl:gap-3 items-center">
+                <BsFillTelephoneFill className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></BsFillTelephoneFill>
+                <span className="text-sm xl:text-base">+234 8993 98043</span>
               </li>
-              <li>
-                <CgMail></CgMail>
-                <span>andreal@gmail.com</span></li>
-              <li>
-                <FaFax></FaFax>
-                <span>855-555-5544</span>
+              <li className="flex gap-1 xl:gap-3 items-center">
+                <CgMail className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></CgMail>
+                <span className="text-sm xl:text-base">andreal@gmail.com</span></li>
+              <li className="flex gap-1 xl:gap-3 items-center">
+                <FaFax className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></FaFax>
+                <span className="text-sm xl:text-base">855-555-5544</span>
                 </li>
-              <li>
-                <FaLocationDot></FaLocationDot>
-                <span>123 Ctg, Bangladesh</span>
+              <li className="flex gap-1 xl:gap-3 items-center">
+                <FaLocationDot className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></FaLocationDot>
+                <span className="text-sm xl:text-base">123 Ctg, Bangladesh</span>
               </li>
             </ul>
             {/* icon section start */}
             <ul className="flex gap-5 items-center">
-                <li><FaFacebookSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaFacebookSquare></li>
-                <li><FaInstagram className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaInstagram></li>
-                <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaLinkedin></li>
-                <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-500 duration-500"></FaTwitterSquare></li>
-                <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl hover:text-red-500 duration-500"></FaYoutube></li>
+                <li><FaFacebookSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-600 duration-500"></FaFacebookSquare></li>
+                <li><FaInstagram className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-600 duration-500"></FaInstagram></li>
+                <li><FaLinkedin className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-600 duration-500"></FaLinkedin></li>
+                <li><FaTwitterSquare className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-2xl hover:text-red-600 duration-500"></FaTwitterSquare></li>
+                <li><FaYoutube className="text-2xl sm:text-xl md:text-xl lg:text-2xl xl:text-3xl hover:text-red-600 duration-500"></FaYoutube></li>
             </ul>
             {/* icon section end */}
           </div>
           {/* left item section end */}
           {/* right item section start */}
-          <div className="flex-1">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum consequuntur repellendus quae fugit sed, expedita ratione delectus. Blanditiis obcaecati odio labore praesentium explicabo qui nam debitis dolorem sapiente assumenda, dolor harum mollitia ex, animi nemo ullam ab aliquam! Necessitatibus cupiditate est magnam. Quod nisi earum minus, provident nam consectetur alias asperiores fugit praesentium nulla omnis natus voluptas labore sit architecto fugiat optio amet, libero iure dolore. Corrupti sunt dolorum eaque omnis perferendis doloribus eligendi aperiam nam? Laborum ipsum quis optio, voluptatem in ipsa eaque labore repellendus, iusto quae animi quibusdam! Aliquam, sint esse odio ad cupiditate voluptatem. Iste repellendus harum reprehenderit similique dolor doloribus ex, dolorem facere consequatur, perferendis dolorum ducimus beatae esse voluptatum pariatur soluta explicabo laborum delectus quod provident unde quam laudantium. Vero sunt voluptatum sequi! Explicabo temporibus beatae quod porro recusandae et officiis voluptates similique officia, fuga minus est vitae ut ipsam eveniet odio! Aut commodi consequuntur rem atque officia? Quisquam vel nulla asperiores corporis nam possimus est ea dolore quis quasi, nemo rerum qui. Inventore cupiditate nihil, ad suscipit fugiat magnam quasi similique quaerat incidunt expedita eius molestiae dolorem, qui earum repellat quibusdam illo. Totam hic suscipit maiores, sunt numquam eaque mollitia dolorum. Modi, explicabo placeat?</p>l
+          <div className="flex-1 mt-10 sm:mt-0">
+            <form className="bg-white shadow-lg p-4 xl:p-8 space-y-3 xl:space-y-6">
+              <div>
+                <h1 className="text-lg xl:text-2xl font-bold">Send Message</h1>
+                <p className="text-xs xl:text-sm w-full xl:w-[90%] mt-3 text-gray-500">Can you share us your name, your email address, your phone number, your address, and what type topic you want to talk us please feel free contact us.</p>
+              </div>
+              <div className="sm:flex sm:items-center sm:justify-between gap-2 xl:gap-5 mt-5">
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs" type="email" placeholder="Enter your name"></input>
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md mt-3 sm:mt-0 text-xs" type="email" placeholder="Enter your name"></input>
+              </div>
+              <div className="sm:flex sm:items-center sm:justify-between gap-2 xl:gap-5 mt-5">
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs" type="email" placeholder="Enter your name"></input>
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md mt-3 sm:mt-0 text-xs" type="email" placeholder="Enter your name"></input>
+              </div>
+
+              <div className="">
+                <textarea className="w-full h-24 xl:h-32 p-3 border-[1px] border-gray-300 rounded-md text-xs" type="email" placeholder="Enter your name"></textarea>
+              </div>
+              <div className="">
+                <button type="submit" className="bg-red-600 text-white p-2 text-xs xl:text-sm rounded-sm font-bold">Send Message</button>
+              </div>
+            </form>
           </div>
           {/* right item section end */}
         </div>
