@@ -1,9 +1,12 @@
 import React from 'react';
+import AboutBanner from '../components/about/AboutBanner';
 
 const AboutPage = () => {
   return (
     <div>
-      <h1>this is about page</h1>
+      {/* about banner section start */}
+      <AboutBanner></AboutBanner>
+      {/* about banner section end */}
     </div>
   );
 };
