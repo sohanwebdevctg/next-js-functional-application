@@ -14,18 +14,18 @@ const ContactForm = () => {
           <div className="flex-1 flex flex-col justify-between space-y-5">
             <h3 className="text-xl sm:text-2xl xl:text-5xl">Let's talk <br></br>on something <span className="text-red-600">great</span> <br></br>together</h3>
             <ul className="space-y-3 sm:space-y-5 xl:space-y-5">
-              <li className="flex gap-1 xl:gap-3 items-center">
+              <li className="flex gap-1 sm:gap-2 xl:gap-3 items-center">
                 <BsFillTelephoneFill className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></BsFillTelephoneFill>
                 <span className="text-sm xl:text-base">+234 8993 98043</span>
               </li>
-              <li className="flex gap-1 xl:gap-3 items-center">
+              <li className="flex gap-1 sm:gap-2 xl:gap-3 items-center">
                 <CgMail className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></CgMail>
                 <span className="text-sm xl:text-base">andreal@gmail.com</span></li>
-              <li className="flex gap-1 xl:gap-3 items-center">
+              <li className="flex gap-1 sm:gap-2 xl:gap-3 items-center">
                 <FaFax className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></FaFax>
                 <span className="text-sm xl:text-base">855-555-5544</span>
                 </li>
-              <li className="flex gap-1 xl:gap-3 items-center">
+              <li className="flex gap-1 sm:gap-2 xl:gap-3 items-center">
                 <FaLocationDot className="bg-black text-[22px] xl:text-3xl rounded-full p-1 xl:p-2 text-red-600 bg-opacity-75"></FaLocationDot>
                 <span className="text-sm xl:text-base">123 Ctg, Bangladesh</span>
               </li>
@@ -50,18 +50,18 @@ const ContactForm = () => {
               </div>
               <div className="sm:flex sm:items-center sm:justify-between gap-2 sm:gap-2 xl:gap-5 mt-5">
                 <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs" type="email" placeholder="Enter your name"></input>
-                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs" type="email" placeholder="Enter your name"></input>
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs mt-3 sm:mt-0" type="email" placeholder="Enter your name"></input>
               </div>
               <div className="sm:flex sm:items-center sm:justify-between gap-2 sm:gap-2 xl:gap-5">
                 <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs" type="email" placeholder="Enter your name"></input>
-                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs" type="email" placeholder="Enter your name"></input>
+                <input className="w-full h-full p-2 xl:p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs mt-3 sm:mt-0" type="email" placeholder="Enter your name"></input>
               </div>
 
               <div className="">
                 <textarea className="w-full h-24 xl:h-32 p-3 border-[1px] border-gray-300 rounded-md text-xs sm:text-xs" type="email" placeholder="Enter your name"></textarea>
               </div>
               <div className="">
-                <button type="submit" className="bg-red-600 text-white p-2 text-[10px] sm:text-xs xl:text-sm rounded-sm font-bold">Send Message</button>
+                <button type="submit" className="bg-red-600 text-white p-2 text-[10px] sm:text-[11px] xl:text-sm rounded-sm font-bold">Send Message</button>
               </div>
             </form>
           </div>
