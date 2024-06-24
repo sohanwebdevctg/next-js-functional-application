@@ -13,8 +13,8 @@ const OurGoal = () => {
         <div className='sm:flex sm:justify-between sm:items-center gap-5'>
           {/* left section start */}
           <div className='flex-1 relative'>
-            <Image src={work} alt="working image" className="w-4/5 sm:w-4/5 xl:w-2/3 h-80 sm:h-80 xl:h-96 p-3 xl:p-5 bg-[#F5F5F5] shadow-lg"></Image>
-            <Image src={work1} alt="working image" className="w-40 h-44 sm:w-32 sm:h-36 xl:w-52 xl:h-60 absolute top-20 right-[3%] sm:top-28 sm:right-[5%] xl:top-[25%] xl:right-[20%] rounded-md shadow-lg"></Image>
+            <Image src={work} alt="working image" className="w-4/5 sm:w-4/5 md:w-4/5 lg:w-3/4 xl:w-2/3 h-80 sm:h-80 md:h-80 lg:h-96 xl:h-96 p-3 xl:p-5 bg-[#F5F5F5] shadow-lg"></Image>
+            <Image src={work1} alt="working image" className="w-40 h-44 sm:w-32 sm:h-36 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-52 xl:h-52 absolute top-20 right-[3%] sm:top-28 sm:right-[5%] md:top-20 md:right-[5%] lg:top-[25%] lg:right-[8%] xl:top-[25%] xl:right-[20%] rounded-md shadow-lg"></Image>
           </div>
           {/* left section end */}
           {/* right section start */}
