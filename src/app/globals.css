@@ -124,6 +124,8 @@
 
 /* ourMember section start */
 .memberCard{
+  position: relative;
+  overflow: hidden;
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
@@ -156,17 +158,42 @@
 }
 
 .memberCard:hover .social{
-  position: relative;
-  bottom: 0;
+  bottom: 12px;
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
   -o-transition: all linear 0.4s;
+  
 }
 .memberCard .social{
   position: absolute;
   bottom: -50px;
+  right: 0;
+  left: 0;
 }
 
 /* ourMember section end */
+
+/* blog banner section start */
+.blogBanner{
+  background-image: url('../../public/blog/blogImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.blogBanner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.7;
+  z-index: -1;
+}
+/* blog banner section end */
