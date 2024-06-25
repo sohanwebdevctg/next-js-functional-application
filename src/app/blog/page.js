@@ -1,6 +1,7 @@
 import React from 'react';
 import BlogBanner from '../components/blog/BlogBanner';
 import BlogGallery from '../components/blog/BlogGallery';
+import RecentPost from '../components/blog/RecentPost';
 
 const BlogPage = () => {
   return (
@@ -11,6 +12,9 @@ const BlogPage = () => {
       {/* blog gallery section start */}
       <BlogGallery></BlogGallery>
       {/* blog gallery section end */}
+      {/* recent post section start */}
+      <RecentPost></RecentPost>
+      {/* recent post section end */}
     </div>
   );
 };
