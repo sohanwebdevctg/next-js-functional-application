@@ -121,3 +121,52 @@
   z-index: -2;
 }
 /* about banner section end */
+
+/* ourMember section start */
+.memberCard{
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.memberCard:hover{
+  background-color: #F5F5F5;
+  box-shadow: 8px 8px 10px rgb(221, 219, 219), -1em 0 .5em rgb(230, 229, 229);
+}
+.memberCard .image{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.memberCard:hover .image{
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  border: 2px solid #dc2626;
+}
+
+.memberCard:hover .social{
+  position: relative;
+  bottom: 0;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.memberCard .social{
+  position: absolute;
+  bottom: -50px;
+}
+
+/* ourMember section end */
