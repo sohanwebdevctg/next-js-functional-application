@@ -2,6 +2,7 @@ import React from 'react';
 import AboutBanner from '../components/about/AboutBanner';
 import OurGoal from '../components/about/OurGoal';
 import OurMember from '../components/about/OurMember';
+import Services from '../components/about/Services';
 
 const AboutPage = () => {
   return (
@@ -15,6 +16,9 @@ const AboutPage = () => {
       {/* our member section start */}
       <OurMember></OurMember>
       {/* our member section end */}
+      {/* services section start */}
+      <Services></Services>
+      {/* services section end */}
     </div>
   );
 };

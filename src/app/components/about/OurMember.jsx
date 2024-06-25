@@ -9,7 +9,7 @@ import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitterSquare } from "reac
 
 const OurMember = () => {
   return (
-    <div className="my-20 sm:my-14 xl:my-20 px-5">
+    <div className="my-20 sm:my-14 xl:my-10 px-5">
       {/* content section start */}
       <div className="container mx-auto">
         {/* title section start */}
