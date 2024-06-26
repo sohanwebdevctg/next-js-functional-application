@@ -2,6 +2,7 @@ import Image from "next/image";
 import room from '../../../../public/blog/room.jpg'
 import room1 from '../../../../public/blog/room2.jpg'
 import soffa from '../../../../public/blog/soffa1.png'
+import bed from '../../../../public/blog/bed.png'
 
 import { FaLinkedin, FaLocationPin, FaSquareFacebook, FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
@@ -40,7 +41,7 @@ const RecentPost = () => {
           <div className="grid grid-cols-1 gap-2">
             {/* item1 section start */}
             <div className="space-y-2">
-              <button className="w-full bg-slate-200 py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
+              <button className="w-full bg-[#F5F5F5] py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
                 Today Blogs
               </button>
               <Image src={soffa} alt="today best product" className="w-full h-44 sm:h-44 md:h-40 lg:h-44 xl:h-52"></Image>
@@ -49,16 +50,16 @@ const RecentPost = () => {
             {/* item1 section end */}
             {/* item2 section start */}
             <div className="space-y-2">
-              <button className="w-full bg-slate-200 py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
-                Today Blogs
+              <button className="w-full bg-[#F5F5F5] py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
+                Tomorrow Blogs
               </button>
-              <Image src={soffa} alt="today best product" className="w-full h-44 sm:h-44 md:h-40 lg:h-44 xl:h-52"></Image>
-              <p className="text-[10px] sm:text-xs md:text-[10px] lg:text-sm xl:text-sm">This is our best product today.You can buy this product in online or offline easily....</p>
+              <Image src={bed} alt="today best product" className="w-full h-44 sm:h-44 md:h-40 lg:h-44 xl:h-52"></Image>
+              <p className="text-[10px] sm:text-xs md:text-[10px] lg:text-sm xl:text-sm">This is our best product tomorrow.You can buy this product in online or offline easily....</p>
             </div>
             {/* item2 section end */}
             {/* item3 section start */}
             <div className="space-y-2">
-              <button className="w-full bg-slate-200 py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
+              <button className="w-full bg-[#F5F5F5] py-2 text-sm sm:text-sm md:text-xs lg:text-sm xl:text-base font-bold">
                 Our Social Media
               </button>
               <ul className="space-y-2 sm:space-y-3 md:space-y-2 lg:space-y-2 xl:space-y-5">
@@ -87,9 +88,6 @@ const RecentPost = () => {
             {/* item3 section end */}
           </div>
           {/* item1 section end */}
-          {/* item2 section start */}
-          <div></div>
-          {/* item2 section end */}
           </div>
           {/* right section end */}
         </div>
