@@ -1,3 +1,4 @@
+import FeaturedProducts from '../components/shop/FeaturedProducts';
 import ShopBanner from '../components/shop/ShopBanner';
 import ShopBrand from '../components/shop/ShopBrand';
 import ViewProduct from '../components/shop/ViewProduct';
@@ -14,6 +15,9 @@ const ShopPage = () => {
       {/* viewProduct section start */}
       <ViewProduct></ViewProduct>
       {/* viewProduct section end */}
+      {/* featured products section start */}
+      <FeaturedProducts></FeaturedProducts>
+      {/* featured products section end */}
     </div>
   );
 };
