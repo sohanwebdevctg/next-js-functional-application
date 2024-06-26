@@ -8,7 +8,7 @@ import brand7 from '../../../../public/brandlogo/brand12.png';
 
 const ShopBanner = () => {
   return (
-    <div className="blogBanner h-96 sm:h-80 md:h-80 lg:h-96 xl:h-[420px]">
+    <div className="shopBanner h-96 sm:h-80 md:h-80 lg:h-96 xl:h-[420px]">
       {/* content section start */}
       <div className="h-full flex justify-center items-center">
         {/* item section start */}

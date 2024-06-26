@@ -1,4 +1,5 @@
 import ShopBanner from '../components/shop/ShopBanner';
+import ViewProduct from '../components/shop/ViewProduct';
 
 const ShopPage = () => {
   return (
@@ -6,6 +7,9 @@ const ShopPage = () => {
       {/* shop section start */}
       <ShopBanner></ShopBanner>
       {/* shop section end */}
+      {/* viewProduct section start */}
+      <ViewProduct></ViewProduct>
+      {/* viewProduct section end */}
     </div>
   );
 };

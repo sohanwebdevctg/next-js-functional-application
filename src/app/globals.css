@@ -197,3 +197,26 @@
   z-index: -1;
 }
 /* blog banner section end */
+
+/* shop banner section start */
+.shopBanner{
+  background-image: url('../../public/shop/shop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.shopBanner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.7;
+  z-index: -1;
+}
+/* shop banner section end */
