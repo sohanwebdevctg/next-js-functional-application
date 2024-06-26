@@ -24,28 +24,28 @@ const ShopBanner = () => {
       <div className='bg-[#F5F5F5] py-3'>
         <ul className='container mx-auto grid grid-cols-8 gap-3'>
           <li>
-            <Image src={brand1} alt="logo1" className='w-3/4 h-20'></Image>
+            <Image src={brand1} alt="logo1" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand2} alt="logo2" className='w-3/4 h-20'></Image>
+            <Image src={brand2} alt="logo2" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand4} alt="logo3" className='w-3/4 h-20'></Image>
+            <Image src={brand4} alt="logo3" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand3} alt="logo6" className='w-3/4 h-20'></Image>
+            <Image src={brand3} alt="logo6" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand6} alt="logo6" className='w-3/4 h-20'></Image>
+            <Image src={brand6} alt="logo6" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand2} alt="logo6" className='w-3/4 h-20'></Image>
+            <Image src={brand2} alt="logo6" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand7} alt="logo6" className='w-3/4 h-20'></Image>
+            <Image src={brand7} alt="logo6" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
           <li>
-            <Image src={brand3} alt="logo6" className='w-3/4 h-20'></Image>
+            <Image src={brand3} alt="logo6" className='mx-auto w-6 h-6 sm:w-12 sm:h-10 md:w-14 md:h-10 lg:w-2/3 lg:h-14 xl:w-3/4 xl:h-20'></Image>
           </li>
         </ul>
       </div>
