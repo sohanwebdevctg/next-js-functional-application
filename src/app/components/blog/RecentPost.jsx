@@ -18,7 +18,7 @@ const RecentPost = () => {
             {/* item1 section start */}
             <div>
               <Image src={room} alt="this is our best room" className="w-full h-44 sm:h-48 md:h-48 lg:h-56 xl:h-80"></Image>
-              <div className="p-5 bg-slate-200">
+              <div className="p-5 bg-[#F5F5F5]">
                 <h1 className="text-sm sm:text-sm md:text-xs lg:text-base xl:text-lg font-bold">Room decoration for couple</h1>
                 <p className="text-[10px] sm:text-xs md:text-[10px] lg:text-sm xl:text-sm mt-1">Consider multifunctional furniture pieces that maximize space efficiency and cater to different needs and activities. Lighting should be adjustable to create different moods, from intimate to functional. Textures and fabrics can add warmth and depth, with plush rugs or soft throws enhancing coziness....</p>
               </div>
@@ -27,7 +27,7 @@ const RecentPost = () => {
             {/* item2 section start */}
             <div>
               <Image src={room1} alt="this is our best room" className="w-full h-44 sm:h-48 md:h-48 lg:h-56 xl:h-80"></Image>
-              <div className="p-5 bg-slate-200">
+              <div className="p-5 bg-[#F5F5F5]">
                 <h1 className="text-sm sm:text-sm md:text-xs lg:text-base xl:text-lg font-bold">Room design for family</h1>
                 <p className="text-[10px] sm:text-xs md:text-[10px] lg:text-sm xl:text-sm mt-1">A family-centric room design features cozy, earth-toned decor with plush seating, a sturdy coffee table, and versatile entertainment options.Thoughtful lighting and personal accents create a welcoming atmosphere for bonding and relaxation, combining comfort with functionality for shared moments.....</p>
               </div>
