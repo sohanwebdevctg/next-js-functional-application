@@ -7,7 +7,7 @@ import working from '../../../../public/blog/working.jpg'
 
 const BlogGallery = () => {
   return (
-    <div className="px-2 sm:px-4 md:px-4 mt-8 mb-2">
+    <div className="px-2 sm:px-4 md:px-4 mt-8 mb-1">
       {/* content section start */}
       <div className='container mx-auto p-3 xl:p-10'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3'>
