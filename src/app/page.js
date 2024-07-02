@@ -1,9 +1,9 @@
 import Banner from "@/components/home/Banner";
-import BrandLogo from "@/components/home/BrandLogo";
+import Support from "@/components/home/Support";
 import OurGallery from "@/components/home/OurGallery";
 import OurProduct from "@/components/home/OurProduct";
+import BrandLogo from "@/components/home/BrandLogo";
 import RecentlyView from "@/components/home/RecentlyView";
-import Support from "@/components/home/Support";
 
 
 const HomePage = () => {
@@ -13,19 +13,19 @@ const HomePage = () => {
       <Banner></Banner>
       {/* banner section end */}
       {/* support section start */}
-      {/* <Support></Support> */}
+      <Support></Support>
       {/* support section end */}
       {/* ourGallery section start */}
-      {/* <OurGallery></OurGallery> */}
+      <OurGallery></OurGallery>
       {/* ourGallery section end */}
       {/* ourProduct section start */}
-      {/* <OurProduct></OurProduct> */}
+      <OurProduct></OurProduct>
       {/* ourProduct section end */}
       {/* brandLogo section start */}
-      {/* <BrandLogo></BrandLogo> */}
+      <BrandLogo></BrandLogo>
       {/* brandLogo section end */}
       {/* recentlyView section start */}
-      {/* <RecentlyView></RecentlyView> */}
+      <RecentlyView></RecentlyView>
       {/* recentlyView section end */}
     </div>
   );
