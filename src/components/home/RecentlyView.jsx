@@ -3,12 +3,13 @@ import { FaStar } from "react-icons/fa6";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { FaHeart } from "react-icons/fa";
 import { recentlyView } from "@/utilities/recentlyView";
+import ViewModal from "./ViewModal";
 
 
 const RecentlyView = () => {
 
+  // recentlyData fetching
   const recentlyData = recentlyView;
-
 
   return (
     <div className="my-3 px-4 ">
@@ -43,7 +44,8 @@ const RecentlyView = () => {
                   <span className="text-xs md:text-[9px] xl:text-xs text-slate-200 ml-1">{data.rating}</span>
                 </span>
                 <span className="flex items-center gap-1">
-                  <AiFillPlusCircle className="text-slate-200 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle>
+                  {/* <AiFillPlusCircle className="text-slate-200 text-xl md:text-sm xl:text-xl"></AiFillPlusCircle> */}
+                  <ViewModal data={data}></ViewModal>
                   <FaHeart className="text-slate-200 text-lg md:text-sm xl:text-xl"></FaHeart>
                 </span>
               </li>

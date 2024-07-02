@@ -1,8 +1,8 @@
-import FeaturedProducts from '../components/shop/FeaturedProducts';
-import ShopBanner from '../components/shop/ShopBanner';
-import ShopBrand from '../components/shop/ShopBrand';
-import ShopSupport from '../components/shop/ShopSupport';
-import ViewProduct from '../components/shop/ViewProduct';
+import ShopBanner from '@/components/shop/ShopBanner';
+import ShopBrand from '@/components/shop/ShopBrand';
+import ViewProduct from '@/components/shop/ViewProduct';
+import FeaturedProducts from '@/components/shop/FeaturedProducts';
+import ShopSupport from '@/components/shop/ShopSupport';
 
 const ShopPage = () => {
   return (
