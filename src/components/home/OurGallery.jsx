@@ -1,16 +1,16 @@
 import Image from "next/image";
-import room1 from '../../../../public/gallery/room1.jpg'
-import room2 from '../../../../public/gallery/room2.jpg'
-import room3 from '../../../../public/gallery/room3.jpg'
-import room4 from '../../../../public/gallery/room4.jpg'
-import soffa from '../../../../public/gallery/soffa.png'
-import table from '../../../../public/gallery/table.jpg'
-import drawer from '../../../../public/gallery/drawer.png'
-import smalldrawer from '../../../../public/gallery/smalldrawer.jpg'
-import sofasidetable from '../../../../public/gallery/sofasidetable.jpg'
-import wallShowcase from '../../../../public/gallery/wallShowcase.jpg'
-import wallWrod from '../../../../public/gallery/wallWrod.jpg'
-import livingroomchair from '../../../../public/gallery/livingroomchair.jpg'
+import room1 from '../../../public/gallery/room1.jpg'
+import room2 from '../../../public/gallery/room2.jpg'
+import room3 from '../../../public/gallery/room3.jpg'
+import room4 from '../../../public/gallery/room4.jpg'
+import soffa from '../../../public/gallery/soffa.png'
+import table from '../../../public/gallery/table.jpg'
+import drawer from '../../../public/gallery/drawer.png'
+import smalldrawer from '../../../public/gallery/smalldrawer.jpg'
+import sofasidetable from '../../../public/gallery/sofasidetable.jpg'
+import wallShowcase from '../../../public/gallery/wallShowcase.jpg'
+import wallWrod from '../../../public/gallery/wallWrod.jpg'
+import livingroomchair from '../../../public/gallery/livingroomchair.jpg'
 
 
 const OurGallery = () => {

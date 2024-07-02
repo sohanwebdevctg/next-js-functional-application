@@ -7,18 +7,18 @@ import 'swiper/css/free-mode';
 import { Autoplay, FreeMode } from 'swiper/modules';
 
 import Image from 'next/image';
-import brand1 from '../../../../public/brandlogo/brand1.png'
-import brand2 from '../../../../public/brandlogo/brand2.png'
-import brand3 from '../../../../public/brandlogo/brand3.png'
-import brand4 from '../../../../public/brandlogo/brand4.png'
-import brand5 from '../../../../public/brandlogo/brand5.png'
-import brand6 from '../../../../public/brandlogo/brand6.png'
-import brand7 from '../../../../public/brandlogo/brand7.png'
-import brand8 from '../../../../public/brandlogo/brand8.png'
-import brand9 from '../../../../public/brandlogo/brand9.png'
-import brand10 from '../../../../public/brandlogo/brand10.png'
-import brand11 from '../../../../public/brandlogo/brand11.png'
-import brand12 from '../../../../public/brandlogo/brand12.png'
+import brand1 from '../../../public/brandlogo/brand1.png'
+import brand2 from '../../../public/brandlogo/brand2.png'
+import brand3 from '../../../public/brandlogo/brand3.png'
+import brand4 from '../../../public/brandlogo/brand4.png'
+import brand5 from '../../../public/brandlogo/brand5.png'
+import brand6 from '../../../public/brandlogo/brand6.png'
+import brand7 from '../../../public/brandlogo/brand7.png'
+import brand8 from '../../../public/brandlogo/brand8.png'
+import brand9 from '../../../public/brandlogo/brand9.png'
+import brand10 from '../../../public/brandlogo/brand10.png'
+import brand11 from '../../../public/brandlogo/brand11.png'
+import brand12 from '../../../public/brandlogo/brand12.png'
 
 
 

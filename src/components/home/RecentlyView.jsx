@@ -1,8 +1,8 @@
 import Image from "next/image";
-import view1 from '../../../../public/recentlyview/view1.jpg'
-import view2 from '../../../../public/recentlyview/view2.jpg'
-import view3 from '../../../../public/recentlyview/view3.png'
-import view4 from '../../../../public/recentlyview/view4.jpeg'
+import view1 from '../../../public/recentlyview/view1.jpg'
+import view2 from '../../../public/recentlyview/view2.jpg'
+import view3 from '../../../public/recentlyview/view3.png'
+import view4 from '../../../public/recentlyview/view4.jpeg'
 import { FaStar } from "react-icons/fa6";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { FaHeart } from "react-icons/fa";

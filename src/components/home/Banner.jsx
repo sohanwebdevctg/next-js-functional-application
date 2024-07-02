@@ -2,6 +2,7 @@ import { FaArrowRight, FaInstagram, FaLinkedin, FaFacebookSquare, FaTwitterSquar
 import BannerSlider from "./BannerSlider";
 
 
+
 const Banner = () => {
   return (
     <div className='h-full xl:h-[420px] px-0 sm:px-4 md:px-4'>

@@ -7,11 +7,11 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Link from 'next/link';
 import Image from 'next/image';
-import image1 from '../../../../public/productcard/roomsofa/image1.png'
-import image2 from '../../../../public/productcard/roomsofa/image2.png'
-import image3 from '../../../../public/productcard/roomsofa/image3.png'
-import image4 from '../../../../public/productcard/roomsofa/image4.png'
-import image5 from '../../../../public/productcard/roomsofa/image5.png'
+import image1 from '../../../public/productcard/roomsofa/image1.png'
+import image2 from '../../../public/productcard/roomsofa/image2.png'
+import image3 from '../../../public/productcard/roomsofa/image3.png'
+import image4 from '../../../public/productcard/roomsofa/image4.png'
+import image5 from '../../../public/productcard/roomsofa/image5.png'
 import { FaHeart, FaStar } from 'react-icons/fa';
 import { AiFillPlusCircle } from 'react-icons/ai';
 
