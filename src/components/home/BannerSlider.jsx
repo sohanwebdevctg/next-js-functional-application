@@ -5,7 +5,7 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 // image section start
-import { bannerSlider } from '@/utilitis/bannerSlider';
+import { bannerSlider } from '@/utilities/bannerSlider';
 import Image from 'next/image';
 
 
