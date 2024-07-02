@@ -84,11 +84,11 @@ const Navbar = () => {
         <div className={`${open ? 'top-[80px]' : '-top-[100%]'} ${scrollData ? 'bg-[#F5F5F5] bg-opacity-90' : ' bg-white bg-opacity-90'} duration-500 z-50 fixed  w-full h-full pt-5`}>
           {/* link section start */}
           <ul className='text-center space-y-5'>
-            <li><Link className={`link ${pathname === '/' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/">HOME</Link></li>
-            <li><Link className={`link ${pathname === '/shop' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/shop">SHOP</Link></li>
-            <li><Link className={`link ${pathname === '/about' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/about">ABOUT</Link></li>
-            <li><Link className={`link ${pathname === '/contact' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/contact">CONTACT</Link></li>
-            <li><Link className={`link ${pathname === '/blog' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/blog">BLOG</Link></li>
+            <li><Link className={`link ${pathname === '/' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/" onClick={() => setOpen(false)}>HOME</Link></li>
+            <li><Link className={`link ${pathname === '/shop' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/shop" onClick={() => setOpen(false)}>SHOP</Link></li>
+            <li><Link className={`link ${pathname === '/about' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/about" onClick={() => setOpen(false)}>ABOUT</Link></li>
+            <li><Link className={`link ${pathname === '/contact' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/contact" onClick={() => setOpen(false)}>CONTACT</Link></li>
+            <li><Link className={`link ${pathname === '/blog' ? 'text-sm sm:text-base font-bold' : 'text-sm sm:text-base'}`} href="/blog" onClick={() => setOpen(false)}>BLOG</Link></li>
           </ul>
           {/* link section end */}
           {/* icon section start */}

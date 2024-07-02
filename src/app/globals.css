@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+.link{
+  text-decoration: none;
+}
+
+
 /* recentlyView (mainCon & subCon) section start */
 .mainCon {
   position: relative;

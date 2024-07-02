@@ -22,7 +22,9 @@ const Services = () => {
               {/* icon section start */}
               <div>
                 <h3 className="text-center mx-auto text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl text-red-600 font-bold">
+                  {/* counterUp start */}
                   <Count item={data.percent}></Count>
+                  {/* counterUp end */}
                 </h3>
               </div>
               {/* icon section end */}
