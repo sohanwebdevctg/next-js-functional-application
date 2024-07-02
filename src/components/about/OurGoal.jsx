@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
-import work from '../../../../public/about/working.jpg';
-import work1 from '../../../../public/about/working1.jpeg';
+import work from '../../../public/about/working.jpg';
+import work1 from '../../../public/about/working1.jpeg';
 
 
 const OurGoal = () => {

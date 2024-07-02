@@ -1,8 +1,8 @@
-import React from 'react';
-import AboutBanner from '../components/about/AboutBanner';
-import OurGoal from '../components/about/OurGoal';
-import OurMember from '../components/about/OurMember';
-import Services from '../components/about/Services';
+import AboutBanner from "@/components/about/AboutBanner";
+import OurGoal from "@/components/about/OurGoal";
+import OurMember from "@/components/about/OurMember";
+import Services from "@/components/about/Services";
+
 
 const AboutPage = () => {
   return (
