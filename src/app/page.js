@@ -1,9 +1,10 @@
-import Banner from "./components/home/Banner";
-import BrandLogo from "./components/home/BrandLogo";
-import OurGallery from "./components/home/OurGallery";
-import OurProduct from "./components/home/OurProduct";
-import RecentlyView from "./components/home/RecentlyView";
-import Support from "./components/home/Support";
+import Banner from "@/components/home/Banner";
+import BrandLogo from "@/components/home/BrandLogo";
+import OurGallery from "@/components/home/OurGallery";
+import OurProduct from "@/components/home/OurProduct";
+import RecentlyView from "@/components/home/RecentlyView";
+import Support from "@/components/home/Support";
+
 
 const HomePage = () => {
   return (
