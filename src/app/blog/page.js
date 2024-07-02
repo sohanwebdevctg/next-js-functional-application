@@ -1,7 +1,7 @@
-import React from 'react';
-import BlogBanner from '../components/blog/BlogBanner';
-import BlogGallery from '../components/blog/BlogGallery';
-import RecentPost from '../components/blog/RecentPost';
+import BlogBanner from "@/components/blog/BlogBanner";
+import BlogGallery from "@/components/blog/BlogGallery";
+import RecentPost from "@/components/blog/RecentPost";
+
 
 const BlogPage = () => {
   return (

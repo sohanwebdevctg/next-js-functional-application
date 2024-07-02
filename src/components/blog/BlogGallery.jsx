@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import success from '../../../../public/blog/success.jpg'
-import delivery from '../../../../public/blog/delivery.jpg'
-import industry from '../../../../public/blog/industry.jpg'
-import award from '../../../../public/blog/award.jpg'
-import working from '../../../../public/blog/working.jpg'
+import success from '../../../public/blog/success.jpg'
+import delivery from '../../../public/blog/delivery.jpg'
+import industry from '../../../public/blog/industry.jpg'
+import award from '../../../public/blog/award.jpg'
+import working from '../../../public/blog/working.jpg'
 
 const BlogGallery = () => {
   return (

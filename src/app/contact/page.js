@@ -1,6 +1,7 @@
-import ContactBanner from '../components/contact/ContactBanner';
-import MapItem from '../components/contact/MapItem';
-import ContactForm from '../components/contact/ContactForm';
+import ContactBanner from "@/components/contact/ContactBanner";
+import ContactForm from "@/components/contact/ContactForm";
+import MapItem from "@/components/contact/MapItem";
+
 
 const ContactPage = () => {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import room from '../../../../public/blog/room.jpg'
-import room1 from '../../../../public/blog/room2.jpg'
-import soffa from '../../../../public/blog/soffa1.png'
-import bed from '../../../../public/blog/bed.png'
+import room from '../../../public/blog/room.jpg'
+import room1 from '../../../public/blog/room2.jpg'
+import soffa from '../../../public/blog/soffa1.png'
+import bed from '../../../public/blog/bed.png'
 
 import { FaLinkedin, FaLocationPin, FaSquareFacebook, FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 
