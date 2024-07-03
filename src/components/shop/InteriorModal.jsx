@@ -1,6 +1,5 @@
 'use client'
 
-import { shopInterior } from "@/utilities/shopInterior";
 import Image from "next/image";
 
 const InteriorModal = ({data}) => {

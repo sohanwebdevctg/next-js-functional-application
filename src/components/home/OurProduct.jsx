@@ -2,6 +2,7 @@ import React from 'react';
 import Product from './Product';
 
 const OurProduct = () => {
+
   return (
     <div>
       {/* content section start */}

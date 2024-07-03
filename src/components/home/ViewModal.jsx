@@ -5,7 +5,6 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 
 const ViewModal = ({data}) => {
-  console.log(data)
   return (
     <div>
       {/* content section start */}

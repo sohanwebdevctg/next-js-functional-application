@@ -8,12 +8,9 @@ import { Navigation } from 'swiper/modules';
 import Link from 'next/link';
 import Image from 'next/image';
 import image1 from '../../../public/productcard/roomsofa/image1.png'
-import image2 from '../../../public/productcard/roomsofa/image2.png'
-import image3 from '../../../public/productcard/roomsofa/image3.png'
-import image4 from '../../../public/productcard/roomsofa/image4.png'
-import image5 from '../../../public/productcard/roomsofa/image5.png'
 import { FaHeart, FaStar } from 'react-icons/fa';
 import { AiFillPlusCircle } from 'react-icons/ai';
+import { furniture } from '@/utilities/furniture';
 
 //product items
 const products = [
@@ -25,105 +22,13 @@ const products = [
     details: 'this is bed room',
     rating: 4.7
   },
-  {
-    id:2,
-    image : image2,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:3,
-    image : image5,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:4,
-    image : image3,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:5,
-    image : image4,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:6,
-    image : image5,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:7,
-    image : image3,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:8,
-    image : image2,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:9,
-    image : image1,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:10,
-    image : image4,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:11,
-    image : image5,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:12,
-    image : image1,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  },
-  {
-    id:13,
-    image : image2,
-    name: 'Bed room',
-    price: 40,
-    details: 'this is bed room',
-    rating: 4.7
-  }
 ]
 
 const Product =  () => {
+
+  // furniture fetching data
+  const furnitureData = furniture;
+  console.log(furnitureData)
 
 
 
@@ -145,38 +50,34 @@ const Product =  () => {
           breakpoints={{
             // when window width is >= 320px
             320: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
             // when window width is >= 480px
             480: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
             // when window width is >= 640px
             640: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
             // when window width is >= 768px
             768: {
-              slidesPerView: 5,
+              slidesPerView: 4,
             },
             // when window width is >= 1024px
             1024: {
-              slidesPerView: 6,
+              slidesPerView: 5,
             },
             // when window width is >= 1280px
             1280: {
-              slidesPerView: 7,
+              slidesPerView: 6,
             },
           }}
           className="itemSwiper">
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Table</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">chair</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Bed</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Soffa</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Table</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">chair</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Bed</SwiperSlide>
-            <SwiperSlide className="py-[2px] text-center text-sm sm:text-xs md:text-xs lg:text-sm xl:text-base text-white bg-red-500 rounded-3xl">Soffa</SwiperSlide>
+            {/* furniture button section start */}
+            {
+              furnitureData.map((item, index) => <SwiperSlide key={item.id} className="py-[3px] text-center text-[11px] sm:text-xs md:text-xs lg:text-[11px] xl:text-[13px] text-white bg-red-500 rounded-3xl">{item.name}</SwiperSlide>)
+            }
           </Swiper>
         </div>
         {/* item section end */}
@@ -216,8 +117,8 @@ const Product =  () => {
           },
         }}
         className="productCardSwiper">
-          {
-            products.map((data) => 
+
+          {products.map((data) => 
           <SwiperSlide key={data.id} className="px-1 py-3">
             {/* item start */}
             <div>
@@ -257,9 +158,9 @@ const Product =  () => {
             {/* description section end */}
             </div>
             {/* item end */}
-        </SwiperSlide>
-            )
-          }
+        </SwiperSlide>)}
+
+
         </Swiper>
       </div>
       {/* productCard section end */}

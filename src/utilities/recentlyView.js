@@ -16,7 +16,7 @@ export const recentlyView = [
     rating: 4.9
   },
   {
-    id:2,
+    id:3,
     image: '/recentlyView/view3.png',
     title: 'Hotel Room',
     description: 'this is hotel room',
@@ -24,7 +24,7 @@ export const recentlyView = [
     rating: 5.0
   },
   {
-    id:2,
+    id:4,
     image: '/recentlyView/view4.jpeg',
     title: 'Luxury Room',
     description: 'this is private room',
