@@ -5,6 +5,7 @@ import { MdInvertColors } from "react-icons/md";
 import Image from 'next/image';
 import { furniture } from '@/utilities/furniture';
 import { useEffect, useState } from 'react';
+import { FaPlusSquare, FaMinusSquare } from "react-icons/fa";
 
 
 const SingleProductPage = ({params,searchParams}) => {
@@ -45,6 +46,17 @@ const SingleProductPage = ({params,searchParams}) => {
   }
   // set selected data from onClick function
   const [selectImage, setSelectImage] = useState('')
+
+  // quantity data
+  const [quantity, setQuantity] = useState(1);
+
+  const quantityIncrement = (data) => {
+    console.log(data)
+  }
+  const quantityDecrement = (data) => {
+    console.log(data)
+  }
+  console.log(quantity)
 
 
   // loading function checkbox
@@ -110,9 +122,11 @@ const SingleProductPage = ({params,searchParams}) => {
             {/* quantity */}
             <li className='flex items-center gap-5'>
               <p className="xl:text-2xl">Quantity:</p>
-              <p>
-                quantity
-              </p>
+              <div className='flex justify-center items-center gap-2 '>
+              <FaPlusSquare className="text-xl text-green-500"/>
+              {quantity}
+              <FaMinusSquare className="text-xl text-red-500"/>
+              </div>
             </li>
           </ul>
           </div>
