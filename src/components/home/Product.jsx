@@ -133,12 +133,12 @@ const Product =  () => {
             <Link href={`../../single/${item.id}?name=${item.name}`}>
             {/* details section start */}
             <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
-              <ul>
+              <ul className='space-y-1'>
                 <li className="flex justify-between items-center">
                   <h2 className="text-sm md:text-xs xl:tex-sm font-bold italic">{item.name}</h2>
                   <p className="text-sm md:text-xs xl:text-sm font-bold">$ 40</p>
                 </li>
-                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">{item.details}</p></li>
+                <li><p className="text-xs md:text-[10px] xl:text-xs text-gray-500">{item.details.slice(0,50)}...</p></li>
                 <li className="flex justify-between items-center">
                   <span className="flex items-center">
                     <FaStar className="text-yellow-500 text-xs md:text-[9px] xl:text-xs"></FaStar>
