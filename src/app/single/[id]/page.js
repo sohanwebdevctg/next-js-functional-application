@@ -51,10 +51,12 @@ const SingleProductPage = ({params,searchParams}) => {
   const [quantity, setQuantity] = useState(1);
 
   const quantityIncrement = (data) => {
-    console.log(data)
+    setQuantity(data + 1)
   }
   const quantityDecrement = (data) => {
-    console.log(data)
+    if(quantity > 1){
+      setQuantity(data - 1)
+    }
   }
   console.log(quantity)
 
@@ -123,9 +125,9 @@ const SingleProductPage = ({params,searchParams}) => {
             <li className='flex items-center gap-5'>
               <p className="xl:text-2xl">Quantity:</p>
               <div className='flex justify-center items-center gap-2 '>
-              <FaPlusSquare className="text-xl text-green-500"/>
-              {quantity}
-              <FaMinusSquare className="text-xl text-red-500"/>
+              <FaPlusSquare onClick={() => quantityIncrement(quantity)} className="xl:text-2xl text-green-500"/>
+              <span className='xl:text-2xl'>{quantity}</span>
+              <FaMinusSquare onClick={() => quantityDecrement(quantity)} className="xl:text-2xl text-red-500"/>
               </div>
             </li>
           </ul>
