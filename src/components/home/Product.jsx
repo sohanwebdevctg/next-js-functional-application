@@ -130,7 +130,7 @@ const Product =  () => {
             </div>
             {/* image section end */}
             {/* description section start */}
-            <Link href={`../../single/${item.id}`}>
+            <Link href={`../../single/${item.id}?name=${item.name}`}>
             {/* details section start */}
             <div className=" bg-[#F5F5F5] p-2 rounded-b-2xl shadow-xl">
               <ul>
