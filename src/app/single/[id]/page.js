@@ -1,8 +1,6 @@
 'use client'
 
 import { FaStar } from 'react-icons/fa';
-
-
 import { MdInvertColors } from "react-icons/md";
 import Image from 'next/image';
 import { furniture } from '@/utilities/furniture';
@@ -17,8 +15,6 @@ const SingleProductPage = ({params,searchParams}) => {
 
     // furniture fetching data
     const furnitureData = furniture;
-
- 
 
   // find out data from params and set state
   useEffect(() => {
@@ -35,22 +31,20 @@ const SingleProductPage = ({params,searchParams}) => {
 
   },[id,name])
 
- 
    // set find data
-   const [itemData, setItemData] = useState([]);
+  const [itemData, setItemData] = useState([]);
 
-   
 
    // setImageData from color plate
-   const [imageData, setImageData] = useState(null);
+  const [imageData, setImageData] = useState(null);
 
   //  set color image function
-   const colorImage = (data) => {
+  const colorImage = (data) => {
     setImageData(data);
     setSelectImage(data[0])
-   }
+  }
   // set selected data from onClick function
-   const [selectImage, setSelectImage] = useState('')
+  const [selectImage, setSelectImage] = useState('')
 
 
   // loading function checkbox
@@ -69,19 +63,16 @@ const SingleProductPage = ({params,searchParams}) => {
           <div className="w-full sm:w-[50%] p-10 bg-white">
             {/* selected image section start */}
             <div className="overflow-hidden">
-              <Image src={selectImage ? selectImage : (imageData ? imageData[0] : '/no-data')} width={300} height={300} alt="this is selected image" className='w-full h-56'></Image>
-              <div className='flex  items-center justify-center gap-2 mt-5 overflow-hidden'>
+              <Image src={selectImage ? selectImage : (imageData ? imageData[0] : '/no-data')} width={300} height={300} alt="this is selected image" className='w-96 h-56 mx-auto'></Image>
+              <div className='flex  items-center justify-around gap-2 mt-5 overflow-hidden bg-[#F5F5F5] py-2'>
                 {
-                  imageData?.map((data,index) => <Image key={index} src={data} width={100} height={100} alt="this is selected image" className='w-24 h-24' onClick={() => setSelectImage(data)}></Image>)
+                  imageData?.map((data,index) => <Image key={index} src={data} width={100} height={100} alt={`this is ${data.id} image`} className='w-24 h-20' onClick={() => setSelectImage(data)}></Image>)
                 }
               </div>
-
-              
             </div>
             {/* selected image section end */}
             {/* select image section start */}
             <div>
-
             </div>
             {/* select image section end */}
           </div>
