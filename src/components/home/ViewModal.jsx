@@ -1,15 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 
 const ViewModal = ({data, id}) => {
 
-  const modalFun = () => {
-    document.getElementById(`my_modal_${id}`).showModal()
-  }
 
   return (
     <div>
@@ -17,7 +13,7 @@ const ViewModal = ({data, id}) => {
       {/* button section start */}
       <AiFillPlusCircle
         className=" text-slate-200 text-xl md:text-sm xl:text-xl"
-        onClick={() => modalFun()}
+        onClick={() => document.getElementById(`my_modal_${id}`).showModal()}
       ></AiFillPlusCircle>
       {/* button section end */}
       {/* data section start */}

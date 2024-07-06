@@ -16,7 +16,7 @@ export const shopInterior = [
     title: 'Our Best Drawing Room',
     images : [
       '/shop/drawingRoom/drawingRoom1.jpg',
-      '/shop/drawingRoom/drawingRoom2.jpg',
+      '/shop/drawingRoom/drawingRoom2.png',
       '/shop/drawingRoom/drawingRoom3.jpg',
       '/shop/drawingRoom/drawingRoom4.png',
     ]

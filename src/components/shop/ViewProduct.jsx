@@ -29,7 +29,7 @@ const ViewProduct = () => {
                 <li><h1 className='text-sm sm:text-sm md:text-sm lg:text-base xl:text-2xl font-bold text-white'>{data.title}</h1></li>
                 <li className="text-end">
                   {/* modal section start */}
-                  <InteriorModal data={data}></InteriorModal>
+                  <InteriorModal data={data} id={data.id}></InteriorModal>
                   {/* modal section end */}
                 </li>
               </ul>

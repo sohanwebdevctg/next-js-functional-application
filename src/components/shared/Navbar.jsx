@@ -2,11 +2,13 @@
 import Image from 'next/image';
 import Logo from '../../../public/logo/logo.png'
 import Link from 'next/link';
-import { FaShoppingCart, FaHeart, FaSearch } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { MdPerson } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
+
 
 const Navbar = () => {
 
@@ -58,10 +60,9 @@ const Navbar = () => {
             </ul>
             {/* link section end */}
             {/* icon section start */}
-            <ul className='flex items-center justify-center gap-5'>
-              <li className='md:text-xs lg:text-[14px] xl:text-[16px]'><Link href="/"><FaShoppingCart></FaShoppingCart></Link></li>
-              <li className='md:text-xs lg:text-[14px] xl:text-[16px]'><Link href="/"><FaHeart></FaHeart></Link></li>
-              <li className='md:text-xs lg:text-[14px] xl:text-[16px]'><Link href="/"><FaSearch></FaSearch></Link></li>
+            <ul className='flex items-center justify-end gap-5'>
+              <li className='md:text-xs lg:text-[14px] xl:text-[16px]'><Link href="/cart"><FaShoppingCart></FaShoppingCart></Link></li>
+              <li className='md:text-xs lg:text-[14px] xl:text-xl'><Link href="/profile"><MdPerson></MdPerson></Link></li>
             </ul>
             {/* icon section end */}
           </div>
@@ -93,9 +94,8 @@ const Navbar = () => {
           {/* link section end */}
           {/* icon section start */}
           <ul className='flex items-center justify-center gap-6 mt-5'>
-            <li className='text-lg'><Link href="/"><FaShoppingCart></FaShoppingCart></Link></li>
-            <li className='text-lg'><Link href="/"><FaHeart></FaHeart></Link></li>
-            <li className='text-lg'><Link href="/"><FaSearch></FaSearch></Link></li>
+            <li className='text-lg'><Link href="/cart" onClick={() => setOpen(false)}><FaShoppingCart></FaShoppingCart></Link></li>
+            <li className='text-lg'><Link href="/profile"><MdPerson></MdPerson></Link></li>
           </ul>
           {/* icon section end */}
           </div>

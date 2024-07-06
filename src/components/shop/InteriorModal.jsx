@@ -2,17 +2,17 @@
 
 import Image from "next/image";
 
-const InteriorModal = ({data}) => {
+const InteriorModal = ({data, id}) => {
   
 
   return (
     <div>
       {/* content section start */}
       {/* button section start */}
-      <button className=" text-[9px] sm:text-[10px] md:text-xs lg:text-xs xl:text-xs px-3 xl:px-4 py-1 border-[1px] border-white rounded-md text-white" onClick={() => document.getElementById("my_modal_2").showModal()}>Show</button>
+      <button className=" text-[9px] sm:text-[10px] md:text-xs lg:text-xs xl:text-xs px-3 xl:px-4 py-1 border-[1px] border-white rounded-md text-white" onClick={() => document.getElementById(`my_modal_${id}`).showModal()}>Show</button>
       {/* button section end */}
       {/* item section start */}
-      <dialog id="my_modal_2" className="modal bg-black bg-opacity-60">
+      <dialog id={`my_modal_${id}`} className="modal bg-black bg-opacity-60">
         <div className="modal-box p-3">
           {/* top section start */}
           <div>

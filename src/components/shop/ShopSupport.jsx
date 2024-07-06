@@ -20,7 +20,7 @@ const ShopSupport = () => {
           <div className="text-center mx-auto space-y-1">
             <FaTruckDroplet className="mx-auto text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl text-red-600"></FaTruckDroplet>
             <h1 className="text-xs sm:text-sm md:text-xs lg:text-sm xl:text-lg font-bold">Best Quality</h1>
-            <p className="text-xs sm:text-sm md:text-[9px] lg:text-[13px] xl:text-base italic text-gray-500">n the realm of artistry, where words dance with purpose, excellence shines through clarity, precision</p>
+            <p className="text-xs sm:text-sm md:text-[9px] lg:text-[13px] xl:text-base italic text-gray-500">The real of artistry, where words dance with purpose, excellence shines through clarity, precision</p>
           </div>
           {/* item2 section end */}
           {/* item3 section start */}
