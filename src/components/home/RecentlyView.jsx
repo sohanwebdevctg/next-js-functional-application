@@ -46,7 +46,7 @@ const RecentlyView = () => {
                 </span>
                 <span className="flex items-center gap-1">
                   {/* viewModal item start */}
-                  <ViewModal data={data}></ViewModal>
+                  <ViewModal data={data} id={data.id}></ViewModal>
                   {/* viewModal item end */}
                   {/* viewFavourite item start */}
                   <ViewFavourite></ViewFavourite>

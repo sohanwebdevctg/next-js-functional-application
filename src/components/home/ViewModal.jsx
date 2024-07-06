@@ -1,21 +1,27 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 
-const ViewModal = ({data}) => {
+const ViewModal = ({data, id}) => {
+
+  const modalFun = () => {
+    document.getElementById(`my_modal_${id}`).showModal()
+  }
+
   return (
     <div>
       {/* content section start */}
       {/* button section start */}
       <AiFillPlusCircle
         className=" text-slate-200 text-xl md:text-sm xl:text-xl"
-        onClick={() => document.getElementById("my_modal_3").showModal()}
+        onClick={() => modalFun()}
       ></AiFillPlusCircle>
       {/* button section end */}
       {/* data section start */}
-      <dialog id="my_modal_3" className="modal">
+      <dialog id={`my_modal_${id}`} className="modal">
         <div className="modal-box bg-[#F5F5F5]">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
