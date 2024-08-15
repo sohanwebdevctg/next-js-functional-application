@@ -48,21 +48,21 @@ const Navbar = () => {
         <div className="container h-full w-full mx-auto md:px-5 lg:px-10 xl:px-12">
           <div className="md:flex md:justify-between md:items-center h-full">
             {/* logo section start */}
-              <Image src={Logo} alt='logo' className='md:w-[10%] lg:w-[9%] xl:w-[10%] md:h-8 lg:h-8 xl:h-10'></Image>
+              <Image src={Logo} alt='logo' className='md:w-[10%] lg:w-[9%] xl:w-[10%] 2xl:w-[11%] md:h-8 lg:h-8 xl:h-10 2xl:h-12'></Image>
             {/* logo section end */}
             {/* link section start */}
             <ul className='flex items-center justify-center gap-8'>
-              <li><Link className={`link ${pathname === '/' ? 'md:text-xs lg:text-[13px] xl:text-sm font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm'}`} href="/">HOME</Link></li>
-              <li><Link className={`link ${pathname === '/shop' ? 'md:text-xs lg:text-[13px] xl:text-sm font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm'}`} href="/shop">SHOP</Link></li>
-              <li><Link className={`link ${pathname === '/about' ? 'md:text-xs lg:text-[13px] xl:text-sm font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm'}`} href="/about">ABOUT</Link></li>
-              <li><Link className={`link ${pathname === '/contact' ? 'md:text-xs lg:text-[13px] xl:text-sm font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm'}`} href="/contact">CONTACT</Link></li>
-              <li><Link className={`link ${pathname === '/blog' ? 'md:text-xs lg:text-[13px] xl:text-sm font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm'}`} href="/blog">BLOG</Link></li>
+              <li><Link className={`link ${pathname === '/' ? 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg'}`} href="/">HOME</Link></li>
+              <li><Link className={`link ${pathname === '/shop' ? 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg'}`} href="/shop">SHOP</Link></li>
+              <li><Link className={`link ${pathname === '/about' ? 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg'}`} href="/about">ABOUT</Link></li>
+              <li><Link className={`link ${pathname === '/contact' ? 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg'}`} href="/contact">CONTACT</Link></li>
+              <li><Link className={`link ${pathname === '/blog' ? 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg font-bold' : 'md:text-xs lg:text-[13px] xl:text-sm 2xl:text-lg'}`} href="/blog">BLOG</Link></li>
             </ul>
             {/* link section end */}
             {/* icon section start */}
             <ul className='flex items-center justify-end gap-5'>
-              <li className='md:text-xs lg:text-[14px] xl:text-[16px]'><Link href="/cart"><FaShoppingCart></FaShoppingCart></Link></li>
-              <li className='md:text-xs lg:text-[14px] xl:text-xl'><Link href="/profile"><MdPerson></MdPerson></Link></li>
+              <li className='md:text-sm lg:text-base xl:text-[16px] 2xl:text-xl'><Link href="/cart"><FaShoppingCart></FaShoppingCart></Link></li>
+              <li className='md:text-base lg:text-lg xl:text-xl 2xl:text-2xl'><Link href="/profile"><MdPerson></MdPerson></Link></li>
             </ul>
             {/* icon section end */}
           </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
           {/* icon section start */}
           <ul className='flex items-center justify-center gap-6 mt-5'>
             <li className='text-lg'><Link href="/cart" onClick={() => setOpen(false)}><FaShoppingCart></FaShoppingCart></Link></li>
-            <li className='text-lg'><Link href="/profile"><MdPerson></MdPerson></Link></li>
+            <li className='text-lg'><Link href="/profile" onClick={() => setOpen(false)}><MdPerson></MdPerson></Link></li>
           </ul>
           {/* icon section end */}
           </div>

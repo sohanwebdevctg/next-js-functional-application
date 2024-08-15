@@ -2,6 +2,10 @@ import BlogBanner from "@/components/blog/BlogBanner";
 import BlogGallery from "@/components/blog/BlogGallery";
 import RecentPost from "@/components/blog/RecentPost";
 
+export const metadata = {
+  title: "Urnitur | Blog",
+  description: "This is blog page",
+};
 
 const BlogPage = () => {
   return (

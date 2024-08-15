@@ -4,6 +4,11 @@ import ViewProduct from '@/components/shop/ViewProduct';
 import FeaturedProducts from '@/components/shop/FeaturedProducts';
 import ShopSupport from '@/components/shop/ShopSupport';
 
+export const metadata = {
+  title: "Urnitur | Shop",
+  description: "This is shop page",
+};
+
 const ShopPage = () => {
   return (
     <div>

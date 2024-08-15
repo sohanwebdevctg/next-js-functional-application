@@ -7,6 +7,11 @@ import { furniture } from '@/utilities/furniture';
 import { useEffect, useState } from 'react';
 import { FaPlusSquare, FaMinusSquare } from "react-icons/fa";
 
+export const metadata = {
+  title: "Urnitur | SingleCart",
+  description: "This is single cart page",
+};
+
 
 const SingleProductPage = ({params,searchParams}) => {
 

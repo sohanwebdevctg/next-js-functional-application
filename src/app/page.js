@@ -5,6 +5,10 @@ import OurProduct from "@/components/home/OurProduct";
 import BrandLogo from "@/components/home/BrandLogo";
 import RecentlyView from "@/components/home/RecentlyView";
 
+export const metadata = {
+  title: "Urnitur | Home",
+  description: "This is home page",
+};
 
 const HomePage = () => {
   return (
