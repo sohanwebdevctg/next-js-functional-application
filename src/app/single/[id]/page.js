@@ -60,6 +60,22 @@ const SingleProductPage = ({params,searchParams}) => {
     }
   }
 
+  //localStorage setData
+  const cartData = () => {
+    const cart = [{
+      name: itemData?.name,
+      price: itemData?.price,
+      quantity: quantity,
+      total : itemData?.price * quantity
+    }]
+
+    console.log(cart)
+
+  }
+
+
+  
+
   // loading function checkbox
   if(!itemData){
     return <p>Loading.....</p>
@@ -98,7 +114,7 @@ const SingleProductPage = ({params,searchParams}) => {
               <span className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-4xl font-bold">{itemData?.name}</span>
               <span className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl text-red-700 italic font-bold">$ {itemData?.price}</span>
             </li>
-            {/* detsils */}
+            {/* details */}
             <li>
               <p className='text-xs sm:text-[13px] md:text-sm lg:text-[15px] xl:text-base text-gray-500 w-full xl:w-[90%]'>{itemData?.details}</p>
             </li>
@@ -130,7 +146,7 @@ const SingleProductPage = ({params,searchParams}) => {
               </div>
             </li>
             <li>
-              <button className='bg-red-600 text-white btn btn-xs sm:btn-xs md:btn-sm lg:btn-sm xl:btn-md hover:bg-red-600'>Add to Cart</button>
+              <button onClick={cartData} className='bg-red-600 text-white btn btn-xs sm:btn-xs md:btn-sm lg:btn-sm xl:btn-md hover:bg-red-600'>Add to Cart</button>
             </li>
           </ul>
           </div>

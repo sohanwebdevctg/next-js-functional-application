@@ -7,7 +7,6 @@ const OurMember = () => {
 
   // ourMembers fetching data
   const ourMemberData = ourMembers;
-  console.log(ourMemberData)
 
   return (
     <div className="my-20 sm:my-14 xl:my-10 px-5">
