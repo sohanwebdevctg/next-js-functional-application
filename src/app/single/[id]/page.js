@@ -6,11 +6,9 @@ import Image from 'next/image';
 import { furniture } from '@/utilities/furniture';
 import { useEffect, useState } from 'react';
 import { FaPlusSquare, FaMinusSquare } from "react-icons/fa";
-
-export const metadata = {
-  title: "Urnitur | SingleCart",
-  description: "This is single cart page",
-};
+import { useRouter } from 'next/navigation';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const SingleProductPage = ({params,searchParams}) => {
@@ -18,6 +16,7 @@ const SingleProductPage = ({params,searchParams}) => {
   // params and searchParams
   const {id} = params;
   const {name} = searchParams;
+  const route = useRouter()
 
     // furniture fetching data
     const furnitureData = furniture;
@@ -54,10 +53,12 @@ const SingleProductPage = ({params,searchParams}) => {
 
   // quantity data
   const [quantity, setQuantity] = useState(1);
+
   // quantity increment function
   const quantityIncrement = (data) => {
     setQuantity(data + 1)
   }
+
   //quantity decrement function
   const quantityDecrement = (data) => {
     if(quantity > 1){
@@ -65,21 +66,16 @@ const SingleProductPage = ({params,searchParams}) => {
     }
   }
 
-  //localStorage setData
-  const cartData = () => {
-    const cart = [{
-      name: itemData?.name,
-      price: itemData?.price,
-      quantity: quantity,
-      total : itemData?.price * quantity
-    }]
-
-    console.log(cart)
-
+  //add data in localStorage
+  const addData = () => {
+    toast("Your data added")
   }
 
+  // previous page
+  const previousPage = () => {
+    route.push('/')
+  }
 
-  
 
   // loading function checkbox
   if(!itemData){
@@ -136,8 +132,12 @@ const SingleProductPage = ({params,searchParams}) => {
             <li className='flex items-center gap-6 sm:gap-3 md:gap-3 lg:gap-4 xl:gp-6'>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">Color:</p>
               <p className='flex gap-1'>
+              {/* {
+                itemData?.colorItem?.map((data, index) => <span key={index} className={`text-[${data?.color}] text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl`} onClick={() => colorImage(data.image)}><MdInvertColors></MdInvertColors></span>)
+              } */}
               {
-                itemData?.colorItem?.map((data, index) => <span key={index} className={`text-${data.color}-500 text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl`} onClick={() => colorImage(data.image)}><MdInvertColors></MdInvertColors></span>)
+                itemData?.colorItem?.map((data, index) => <span key={index} 
+                style={{ color: data.color }} className={` text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl`} onClick={() => colorImage(data.image)}><MdInvertColors></MdInvertColors></span>)
               }
               </p>
             </li>
@@ -150,8 +150,12 @@ const SingleProductPage = ({params,searchParams}) => {
               <FaMinusSquare onClick={() => quantityDecrement(quantity)} className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-red-500"/>
               </div>
             </li>
+            {/* total price */}
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">Total: $ {itemData?.price * quantity}</p>
+            {/* button  */}
             <li>
-              <button onClick={cartData} className='bg-red-600 text-white btn btn-xs sm:btn-xs md:btn-sm lg:btn-sm xl:btn-md hover:bg-red-600'>Add to Cart</button>
+              <button onClick={addData} className='bg-green-600 text-white btn btn-xs sm:btn-xs md:btn-sm lg:btn-sm xl:btn-md hover:bg-green-600'>Add to Cart</button>
+              <button onClick={previousPage} className='bg-red-600 text-white btn btn-xs sm:btn-xs md:btn-sm lg:btn-sm xl:btn-md hover:bg-red-600 ml-2'>Back</button>
             </li>
           </ul>
           </div>
@@ -160,6 +164,7 @@ const SingleProductPage = ({params,searchParams}) => {
         {/* item section end */}
       </div>
       {/* content section end */}
+      <ToastContainer />
     </div>
     </div>
   );

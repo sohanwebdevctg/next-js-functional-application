@@ -3,11 +3,6 @@ import OurGoal from "@/components/about/OurGoal";
 import OurMember from "@/components/about/OurMember";
 import Services from "@/components/about/Services";
 
-export const metadata = {
-  title: "Urnitur | About",
-  description: "This is about page",
-};
-
 const AboutPage = () => {
   return (
     <div>

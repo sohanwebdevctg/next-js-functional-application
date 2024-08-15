@@ -15,36 +15,36 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#696259',
             image: ['/furnitures/bed/bed1/1/1.png', 
               '/furnitures/bed/bed1/1/2.png',
             '/furnitures/bed/bed1/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#5F0836',
             image: ['/furnitures/bed/bed1/2/1.png', 
               '/furnitures/bed/bed1/2/2.png',
             '/furnitures/bed/bed1/2/3.png']
           },
           {
             id: 3,
-            color: 'blue',
+            color: '#B13803',
             image: ['/furnitures/bed/bed1/3/1.png', 
               '/furnitures/bed/bed1/3/2.png',
             '/furnitures/bed/bed1/3/3.png']
           },
           {
             id: 4,
-            color: 'ore',
+            color: '#B30F2D',
             image: ['/furnitures/bed/bed1/4/1.png', 
               '/furnitures/bed/bed1/4/2.png',
             '/furnitures/bed/bed1/4/3.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
+            color: '#2E4B75',
+            image: ['/furnitures/bed/bed1/5/1.png', 
               '/furnitures/bed/bed1/5/2.png',
             '/furnitures/bed/bed1/5/3.png']
           }
@@ -62,35 +62,35 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#362D2C',
             image: ['/furnitures/bed/bed2/1/1.png', 
               '/furnitures/bed/bed2/1/2.png',
             '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#884768',
             image: ['/furnitures/bed/bed2/2/1.png', 
               '/furnitures/bed/bed2/2/2.png',
             '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#323232',
             image: ['/furnitures/bed/bed2/3/1.png', 
               '/furnitures/bed/bed2/3/2.png',
             '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#312AA8',
             image: ['/furnitures/bed/bed2/4/1.png', 
               '/furnitures/bed/bed2/4/2.png',
             '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#2E031B',
             image: ['/furnitures/bed/bed2/5/1.png', 
               '/furnitures/bed/bed2/5/2.png',
             '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
@@ -109,35 +109,35 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#B4B8BB',
             image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+              '/furnitures/bed/bed3/1/2.png',
+            '/furnitures/bed/bed3/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#C27276',
             image: ['/furnitures/bed/bed3/2/1.png', 
               '/furnitures/bed/bed3/2/2.png',
             '/furnitures/bed/bed3/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#97AD85',
             image: ['/furnitures/bed/bed3/3/1.png', 
               '/furnitures/bed/bed3/3/2.png',
             '/furnitures/bed/bed3/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#EA8C08',
             image: ['/furnitures/bed/bed3/4/1.png', 
               '/furnitures/bed/bed3/4/2.png',
             '/furnitures/bed/bed3/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#B49269',
             image: ['/furnitures/bed/bed3/5/1.png', 
               '/furnitures/bed/bed3/5/2.png',
             '/furnitures/bed/bed3/5/3.png']
@@ -156,35 +156,35 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#4B2919',
             image: ['/furnitures/bed/bed4/1/1.png', 
               '/furnitures/bed/bed4/1/2.png',
             '/furnitures/bed/bed4/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#533E25',
             image: ['/furnitures/bed/bed4/2/1.png', 
               '/furnitures/bed/bed4/2/2.png',
             '/furnitures/bed/bed4/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#32041F',
             image: ['/furnitures/bed/bed4/3/1.png', 
               '/furnitures/bed/bed4/3/2.png',
             '/furnitures/bed/bed4/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#292929',
             image: ['/furnitures/bed/bed4/4/1.png', 
               '/furnitures/bed/bed4/4/2.png',
             '/furnitures/bed/bed4/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#4828A7',
             image: ['/furnitures/bed/bed4/5/1.png', 
               '/furnitures/bed/bed4/5/2.png',
             '/furnitures/bed/bed4/5/3.png']
@@ -203,35 +203,35 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#876039',
             image: ['/furnitures/bed/bed5/1/1.png', 
               '/furnitures/bed/bed5/1/2.png',
             '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#710B40',
             image: ['/furnitures/bed/bed5/2/1.png', 
               '/furnitures/bed/bed5/2/2.png',
             '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#2C537A',
             image: ['/furnitures/bed/bed5/3/1.png', 
               '/furnitures/bed/bed5/3/2.png',
             '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#ACAAA4',
             image: ['/furnitures/bed/bed5/4/1.png', 
               '/furnitures/bed/bed5/4/2.png',
             '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#1C6479',
             image: ['/furnitures/bed/bed5/5/1.png', 
               '/furnitures/bed/bed5/5/2.png',
             '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
@@ -258,27 +258,27 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#5A4634',
             image: ['/furnitures/chair/chair1/1/1.png', '/furnitures/chair/chair1/1/2.png','/furnitures/chair/chair1/1/3.png', '/furnitures/chair/chair1/1/4.png', '/furnitures/chair/chair1/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#CEC4B1',
             image: ['/furnitures/chair/chair1/2/1.png', '/furnitures/chair/chair1/2/2.png','/furnitures/chair/chair1/2/3.png', '/furnitures/chair/chair1/2/4.png', '/furnitures/chair/chair1/2/5.png']
           },
           {
             id: 3,
-            color: 'blue',
+            color: '#626255',
             image: ['/furnitures/chair/chair1/3/1.png', '/furnitures/chair/chair1/3/2.png','/furnitures/chair/chair1/3/3.png', '/furnitures/chair/chair1/3/4.png', '/furnitures/chair/chair1/3/5.png']
           },
           {
             id: 4,
-            color: 'ore',
+            color: '#542726',
             image: ['/furnitures/chair/chair1/4/1.png', '/furnitures/chair/chair1/4/2.png','/furnitures/chair/chair1/4/3.png', '/furnitures/chair/chair1/4/4.png', '/furnitures/chair/chair1/4/5.png']
           },
           {
             id: 5,
-            color: 'red',
+            color: '#344438',
             image: ['/furnitures/chair/chair1/5/1.png', '/furnitures/chair/chair1/5/2.png','/furnitures/chair/chair1/5/3.png', '/furnitures/chair/chair1/5/4.png', '/furnitures/chair/chair1/5/5.png']
           }
         ]
@@ -295,27 +295,27 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#CBBB9E',
             image: ['/furnitures/chair/chair2/1/1.png', '/furnitures/chair/chair2/1/2.png','/furnitures/chair/chair2/1/3.png', '/furnitures/chair/chair2/1/4.png', '/furnitures/chair/chair2/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#625351',
             image: ['/furnitures/chair/chair2/2/1.png', '/furnitures/chair/chair2/2/2.png','/furnitures/chair/chair2/2/3.png', '/furnitures/chair/chair2/2/4.png', '/furnitures/chair/chair2/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#646560',
             image: ['/furnitures/chair/chair2/3/1.png', '/furnitures/chair/chair2/3/2.png','/furnitures/chair/chair2/3/3.png', '/furnitures/chair/chair2/3/4.png', '/furnitures/chair/chair2/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#A38367',
             image: ['/furnitures/chair/chair2/4/1.png', '/furnitures/chair/chair2/4/2.png','/furnitures/chair/chair2/4/3.png', '/furnitures/chair/chair2/4/4.png', '/furnitures/chair/chair2/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#E78E80',
             image: ['/furnitures/chair/chair2/5/1.png', '/furnitures/chair/chair2/5/2.png','/furnitures/chair/chair2/5/3.png', '/furnitures/chair/chair2/5/4.png', '/furnitures/chair/chair2/5/5.png']
           },
         ]
@@ -332,27 +332,27 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#BFB093',
             image: ['/furnitures/chair/chair3/1/1.png', '/furnitures/chair/chair3/1/2.png','/furnitures/chair/chair3/1/3.png', '/furnitures/chair/chair3/1/4.png', '/furnitures/chair/chair3/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#453835',
             image: ['/furnitures/chair/chair3/2/1.png', '/furnitures/chair/chair3/2/2.png','/furnitures/chair/chair3/2/3.png', '/furnitures/chair/chair3/2/4.png', '/furnitures/chair/chair3/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#21211F',
             image: ['/furnitures/chair/chair3/3/1.png', '/furnitures/chair/chair3/3/2.png','/furnitures/chair/chair3/3/3.png', '/furnitures/chair/chair3/3/4.png', '/furnitures/chair/chair3/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#87674E',
             image: ['/furnitures/chair/chair3/4/1.png', '/furnitures/chair/chair3/4/2.png','/furnitures/chair/chair3/4/3.png', '/furnitures/chair/chair3/4/4.png', '/furnitures/chair/chair3/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#514E4F',
             image: ['/furnitures/chair/chair3/5/1.png', '/furnitures/chair/chair3/5/2.png','/furnitures/chair/chair3/5/3.png', '/furnitures/chair/chair3/5/4.png', '/furnitures/chair/chair3/5/5.png']
           },
         ]
@@ -369,27 +369,27 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#E8E4DC',
             image: ['/furnitures/chair/chair4/1/1.png', '/furnitures/chair/chair4/1/2.png','/furnitures/chair/chair4/1/3.png', '/furnitures/chair/chair4/1/4.png', '/furnitures/chair/chair4/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#646562',
             image: ['/furnitures/chair/chair4/2/1.png', '/furnitures/chair/chair4/2/2.png','/furnitures/chair/chair4/2/3.png', '/furnitures/chair/chair4/2/4.png', '/furnitures/chair/chair4/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#B89377',
             image: ['/furnitures/chair/chair4/3/1.png', '/furnitures/chair/chair4/3/2.png','/furnitures/chair/chair4/3/3.png', '/furnitures/chair/chair4/3/4.png', '/furnitures/chair/chair4/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#504D4E',
             image: ['/furnitures/chair/chair4/4/1.png', '/furnitures/chair/chair4/4/2.png','/furnitures/chair/chair4/4/3.png', '/furnitures/chair/chair4/4/4.png', '/furnitures/chair/chair4/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#8C9F99',
             image: ['/furnitures/chair/chair4/5/1.png', '/furnitures/chair/chair4/5/2.png','/furnitures/chair/chair4/5/3.png', '/furnitures/chair/chair4/5/4.png', '/furnitures/chair/chair4/5/5.png']
           },
         ]
@@ -406,27 +406,27 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
+            color: '#483628',
             image: ['/furnitures/chair/chair5/1/1.png', '/furnitures/chair/chair5/1/2.png','/furnitures/chair/chair5/1/3.png', '/furnitures/chair/chair5/1/4.png', '/furnitures/chair/chair5/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
+            color: '#3D3D3D',
             image: ['/furnitures/chair/chair5/2/1.png', '/furnitures/chair/chair5/2/2.png','/furnitures/chair/chair5/2/3.png', '/furnitures/chair/chair5/2/4.png', '/furnitures/chair/chair5/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
+            color: '#39463D',
             image: ['/furnitures/chair/chair5/3/1.png', '/furnitures/chair/chair5/3/2.png','/furnitures/chair/chair5/3/3.png', '/furnitures/chair/chair5/3/4.png', '/furnitures/chair/chair5/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
+            color: '#542223',
             image: ['/furnitures/chair/chair5/4/1.png', '/furnitures/chair/chair5/4/2.png','/furnitures/chair/chair5/4/3.png', '/furnitures/chair/chair5/4/4.png', '/furnitures/chair/chair5/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
+            color: '#5D584C',
             image: ['/furnitures/chair/chair5/5/1.png', '/furnitures/chair/chair5/5/2.png','/furnitures/chair/chair5/5/3.png', '/furnitures/chair/chair5/5/4.png', '/furnitures/chair/chair5/5/5.png']
           },
         ]
@@ -451,38 +451,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/1/2.png',
-            '/furnitures/bed/bed1/1/3.png']
+            color: '#79573E',
+            image: ['/furnitures/doubleSofa/doubleSofa1/1/1.png', 
+              '/furnitures/doubleSofa/doubleSofa1/1/2.png',
+            '/furnitures/doubleSofa/doubleSofa1/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed1/2/1.png', 
-              '/furnitures/bed/bed1/2/2.png',
-            '/furnitures/bed/bed1/2/3.png']
+            color: '#5A0833',
+            image: ['/furnitures/doubleSofa/doubleSofa1/2/1.png', 
+              '/furnitures/doubleSofa/doubleSofa1/2/2.png',
+            '/furnitures/doubleSofa/doubleSofa1/2/3.png']
           },
           {
             id: 3,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/3/1.png', 
-              '/furnitures/bed/bed1/3/2.png',
-            '/furnitures/bed/bed1/3/3.png']
+            color: '#576849',
+            image: ['/furnitures/doubleSofa/doubleSofa1/3/1.png', 
+              '/furnitures/doubleSofa/doubleSofa1/3/2.png',
+            '/furnitures/doubleSofa/doubleSofa1/3/3.png']
           },
           {
             id: 4,
-            color: 'ore',
-            image: ['/furnitures/bed/bed1/4/1.png', 
-              '/furnitures/bed/bed1/4/2.png',
-            '/furnitures/bed/bed1/4/3.png']
+            color: '#AD3601',
+            image: ['/furnitures/doubleSofa/doubleSofa1/4/1.png', 
+              '/furnitures/doubleSofa/doubleSofa1/4/2.png',
+            '/furnitures/doubleSofa/doubleSofa1/4/3.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/5/2.png',
-            '/furnitures/bed/bed1/5/3.png']
+            color: '#A80E29',
+            image: ['/furnitures/doubleSofa/doubleSofa1/5/1.png', 
+              '/furnitures/doubleSofa/doubleSofa1/5/2.png',
+            '/furnitures/doubleSofa/doubleSofa1/5/3.png']
           }
         ]
       },
@@ -498,38 +498,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
+            color: '#676E7B',
+            image: ['/furnitures/doubleSofa/doubleSofa2/1/1.png', 
+              '/furnitures/doubleSofa/doubleSofa2/1/2.png',
+            '/furnitures/doubleSofa/doubleSofa2/1/3.png', '/furnitures/doubleSofa/doubleSofa2/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed2/2/1.png', 
-              '/furnitures/bed/bed2/2/2.png',
-            '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
+            color: '#6B093C',
+            image: ['/furnitures/doubleSofa/doubleSofa2/2/1.png', 
+              '/furnitures/doubleSofa/doubleSofa2/2/2.png',
+            '/furnitures/doubleSofa/doubleSofa2/2/3.png', '/furnitures/doubleSofa/doubleSofa2/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed2/3/1.png', 
-              '/furnitures/bed/bed2/3/2.png',
-            '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
+            color: '#BE3F04',
+            image: ['/furnitures/doubleSofa/doubleSofa2/3/1.png', 
+              '/furnitures/doubleSofa/doubleSofa2/3/2.png',
+            '/furnitures/doubleSofa/doubleSofa2/3/3.png', '/furnitures/doubleSofa/doubleSofa2/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed2/4/1.png', 
-              '/furnitures/bed/bed2/4/2.png',
-            '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
+            color: '#5E67AF',
+            image: ['/furnitures/doubleSofa/doubleSofa2/4/1.png', 
+              '/furnitures/doubleSofa/doubleSofa2/4/2.png',
+            '/furnitures/doubleSofa/doubleSofa2/4/3.png', '/furnitures/doubleSofa/doubleSofa2/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/5/1.png', 
-              '/furnitures/bed/bed2/5/2.png',
-            '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
+            color: '#5B7251',
+            image: ['/furnitures/doubleSofa/doubleSofa2/5/1.png', 
+              '/furnitures/doubleSofa/doubleSofa2/5/2.png',
+            '/furnitures/doubleSofa/doubleSofa2/5/3.png', '/furnitures/doubleSofa/doubleSofa2/5/4.png']
           },
         ]
       },
@@ -545,38 +545,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+            color: '#494341',
+            image: ['/furnitures/doubleSofa/doubleSofa3/1/1.png', 
+              '/furnitures/doubleSofa/doubleSofa3/1/2.png',
+            '/furnitures/doubleSofa/doubleSofa3/1/3.png', '/furnitures/doubleSofa/doubleSofa3/1/4.png','/furnitures/doubleSofa/doubleSofa3/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed3/2/1.png', 
-              '/furnitures/bed/bed3/2/2.png',
-            '/furnitures/bed/bed3/2/3.png']
+            color: '#5B3731',
+            image: ['/furnitures/doubleSofa/doubleSofa3/2/1.png', 
+              '/furnitures/doubleSofa/doubleSofa3/2/2.png',
+            '/furnitures/doubleSofa/doubleSofa3/2/3.png', '/furnitures/doubleSofa/doubleSofa3/2/4.png','/furnitures/doubleSofa/doubleSofa3/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed3/3/1.png', 
-              '/furnitures/bed/bed3/3/2.png',
-            '/furnitures/bed/bed3/3/3.png']
+            color: '#2A3125',
+            image: ['/furnitures/doubleSofa/doubleSofa3/3/1.png', 
+              '/furnitures/doubleSofa/doubleSofa3/3/2.png',
+            '/furnitures/doubleSofa/doubleSofa3/3/3.png', '/furnitures/doubleSofa/doubleSofa3/3/4.png','/furnitures/doubleSofa/doubleSofa3/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed3/4/1.png', 
-              '/furnitures/bed/bed3/4/2.png',
-            '/furnitures/bed/bed3/4/3.png']
+            color: '#1E1F1C',
+            image: ['/furnitures/doubleSofa/doubleSofa3/4/1.png', 
+              '/furnitures/doubleSofa/doubleSofa3/4/2.png',
+            '/furnitures/doubleSofa/doubleSofa3/4/3.png', '/furnitures/doubleSofa/doubleSofa3/4/4.png','/furnitures/doubleSofa/doubleSofa3/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/5/1.png', 
-              '/furnitures/bed/bed3/5/2.png',
-            '/furnitures/bed/bed3/5/3.png']
+            color: '#88684E',
+            image: ['/furnitures/doubleSofa/doubleSofa3/5/1.png', 
+              '/furnitures/doubleSofa/doubleSofa3/5/2.png',
+            '/furnitures/doubleSofa/doubleSofa3/5/3.png', '/furnitures/doubleSofa/doubleSofa3/5/4.png','/furnitures/doubleSofa/doubleSofa3/5/5.png']
           },
         ]
       },
@@ -592,38 +592,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/1/1.png', 
-              '/furnitures/bed/bed4/1/2.png',
-            '/furnitures/bed/bed4/1/3.png']
+            color: '#C0BDB5',
+            image: ['/furnitures/doubleSofa/doubleSofa4/1/1.png', 
+              '/furnitures/doubleSofa/doubleSofa4/1/2.png',
+            '/furnitures/doubleSofa/doubleSofa4/1/3.png', '/furnitures/doubleSofa/doubleSofa4/1/4.png','/furnitures/doubleSofa/doubleSofa4/1/5.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed4/2/1.png', 
-              '/furnitures/bed/bed4/2/2.png',
-            '/furnitures/bed/bed4/2/3.png']
+            color: '#A8B3AA',
+            image: ['/furnitures/doubleSofa/doubleSofa4/2/1.png', 
+              '/furnitures/doubleSofa/doubleSofa4/2/2.png',
+            '/furnitures/doubleSofa/doubleSofa4/2/3.png', '/furnitures/doubleSofa/doubleSofa4/2/4.png','/furnitures/doubleSofa/doubleSofa4/2/5.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed4/3/1.png', 
-              '/furnitures/bed/bed4/3/2.png',
-            '/furnitures/bed/bed4/3/3.png']
+            color: '#2E2B2C',
+            image: ['/furnitures/doubleSofa/doubleSofa4/3/1.png', 
+              '/furnitures/doubleSofa/doubleSofa4/3/2.png',
+            '/furnitures/doubleSofa/doubleSofa4/3/3.png', '/furnitures/doubleSofa/doubleSofa4/3/4.png','/furnitures/doubleSofa/doubleSofa4/3/5.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed4/4/1.png', 
-              '/furnitures/bed/bed4/4/2.png',
-            '/furnitures/bed/bed4/4/3.png']
+            color: '#8C6B52',
+            image: ['/furnitures/doubleSofa/doubleSofa4/4/1.png', 
+              '/furnitures/doubleSofa/doubleSofa4/4/2.png',
+            '/furnitures/doubleSofa/doubleSofa4/4/3.png', '/furnitures/doubleSofa/doubleSofa4/4/4.png','/furnitures/doubleSofa/doubleSofa4/4/5.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/5/1.png', 
-              '/furnitures/bed/bed4/5/2.png',
-            '/furnitures/bed/bed4/5/3.png']
+            color: '#8F9790',
+            image: ['/furnitures/doubleSofa/doubleSofa4/5/1.png', 
+              '/furnitures/doubleSofa/doubleSofa4/5/2.png',
+            '/furnitures/doubleSofa/doubleSofa4/5/3.png', '/furnitures/doubleSofa/doubleSofa4/5/4.png','/furnitures/doubleSofa/doubleSofa4/5/5.png']
           },
         ]
       },
@@ -639,38 +639,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/1/1.png', 
-              '/furnitures/bed/bed5/1/2.png',
-            '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
+            color: '#C08E91',
+            image: ['/furnitures/doubleSofa/doubleSofa5/1/1.png', 
+              '/furnitures/doubleSofa/doubleSofa5/1/2.png',
+            '/furnitures/doubleSofa/doubleSofa5/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed5/2/1.png', 
-              '/furnitures/bed/bed5/2/2.png',
-            '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
+            color: '#9B325A',
+            image: ['/furnitures/doubleSofa/doubleSofa5/2/1.png', 
+              '/furnitures/doubleSofa/doubleSofa5/2/2.png',
+            '/furnitures/doubleSofa/doubleSofa5/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed5/3/1.png', 
-              '/furnitures/bed/bed5/3/2.png',
-            '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
+            color: '#799671',
+            image: ['/furnitures/doubleSofa/doubleSofa5/3/1.png', 
+              '/furnitures/doubleSofa/doubleSofa5/3/2.png',
+            '/furnitures/doubleSofa/doubleSofa5/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed5/4/1.png', 
-              '/furnitures/bed/bed5/4/2.png',
-            '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
+            color: '#FE7138',
+            image: ['/furnitures/doubleSofa/doubleSofa5/4/1.png', 
+              '/furnitures/doubleSofa/doubleSofa5/4/2.png',
+            '/furnitures/doubleSofa/doubleSofa5/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/5/1.png', 
-              '/furnitures/bed/bed5/5/2.png',
-            '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
+            color: '#AE69D0',
+            image: ['/furnitures/doubleSofa/doubleSofa5/5/1.png', 
+              '/furnitures/doubleSofa/doubleSofa5/5/2.png',
+            '/furnitures/doubleSofa/doubleSofa5/5/3.png']
           },
         ]
       },
@@ -694,38 +694,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/1/2.png',
-            '/furnitures/bed/bed1/1/3.png']
+            color: '#71857A',
+            image: ['/furnitures/singleSofa/singleSofa1/1/1.png', 
+              '/furnitures/singleSofa/singleSofa1/1/2.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed1/2/1.png', 
-              '/furnitures/bed/bed1/2/2.png',
-            '/furnitures/bed/bed1/2/3.png']
+            color: '#7F0C4A',
+            image: ['/furnitures/singleSofa/singleSofa1/2/1.png', 
+              '/furnitures/singleSofa/singleSofa1/2/2.png']
           },
           {
             id: 3,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/3/1.png', 
-              '/furnitures/bed/bed1/3/2.png',
-            '/furnitures/bed/bed1/3/3.png']
+            color: '#D44C03',
+            image: ['/furnitures/singleSofa/singleSofa1/3/1.png', 
+              '/furnitures/singleSofa/singleSofa1/3/2.png']
           },
           {
             id: 4,
-            color: 'ore',
-            image: ['/furnitures/bed/bed1/4/1.png', 
-              '/furnitures/bed/bed1/4/2.png',
-            '/furnitures/bed/bed1/4/3.png']
+            color: '#6168CA',
+            image: ['/furnitures/singleSofa/singleSofa1/4/1.png', 
+              '/furnitures/singleSofa/singleSofa1/4/2.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/5/2.png',
-            '/furnitures/bed/bed1/5/3.png']
+            color: '#D7143C',
+            image: ['/furnitures/singleSofa/singleSofa1/5/1.png', 
+              '/furnitures/singleSofa/singleSofa1/5/2.png']
           }
         ]
       },
@@ -741,38 +736,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
+            color: '#5D2A59',
+            image: ['/furnitures/singleSofa/singleSofa2/1/1.png', 
+              '/furnitures/singleSofa/singleSofa2/1/2.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed2/2/1.png', 
-              '/furnitures/bed/bed2/2/2.png',
-            '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
+            color: '#4F593A',
+            image: ['/furnitures/singleSofa/singleSofa2/2/1.png', 
+              '/furnitures/singleSofa/singleSofa2/2/2.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed2/3/1.png', 
-              '/furnitures/bed/bed2/3/2.png',
-            '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
+            color: '#960E5E',
+            image: ['/furnitures/singleSofa/singleSofa2/3/1.png', 
+              '/furnitures/singleSofa/singleSofa2/3/2.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed2/4/1.png', 
-              '/furnitures/bed/bed2/4/2.png',
-            '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
+            color: '#972B04',
+            image: ['/furnitures/singleSofa/singleSofa2/4/1.png', 
+              '/furnitures/singleSofa/singleSofa2/4/2.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/5/1.png', 
-              '/furnitures/bed/bed2/5/2.png',
-            '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
+            color: '#373A6D',
+            image: ['/furnitures/singleSofa/singleSofa2/5/1.png', 
+              '/furnitures/singleSofa/singleSofa2/5/2.png']
           },
         ]
       },
@@ -788,38 +778,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+            color: '#746755',
+            image: ['/furnitures/singleSofa/singleSofa3/1/1.png', 
+              '/furnitures/singleSofa/singleSofa3/1/2.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed3/2/1.png', 
-              '/furnitures/bed/bed3/2/2.png',
-            '/furnitures/bed/bed3/2/3.png']
+            color: '#6B093C',
+            image: ['/furnitures/singleSofa/singleSofa3/2/1.png', 
+              '/furnitures/singleSofa/singleSofa3/2/2.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed3/3/1.png', 
-              '/furnitures/bed/bed3/3/2.png',
-            '/furnitures/bed/bed3/3/3.png']
+            color: '#5B7050',
+            image: ['/furnitures/singleSofa/singleSofa3/3/1.png', 
+              '/furnitures/singleSofa/singleSofa3/3/2.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed3/4/1.png', 
-              '/furnitures/bed/bed3/4/2.png',
-            '/furnitures/bed/bed3/4/3.png']
+            color: '#AC6E05',
+            image: ['/furnitures/singleSofa/singleSofa3/4/1.png', 
+              '/furnitures/singleSofa/singleSofa3/4/2.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/5/1.png', 
-              '/furnitures/bed/bed3/5/2.png',
-            '/furnitures/bed/bed3/5/3.png']
+            color: '#BB3E04',
+            image: ['/furnitures/singleSofa/singleSofa3/5/1.png', 
+              '/furnitures/singleSofa/singleSofa3/5/2.png']
           },
         ]
       },
@@ -835,38 +820,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/1/1.png', 
-              '/furnitures/bed/bed4/1/2.png',
-            '/furnitures/bed/bed4/1/3.png']
+            color: '#6281A2',
+            image: ['/furnitures/singleSofa/singleSofa4/1/1.png', 
+              '/furnitures/singleSofa/singleSofa4/1/2.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed4/2/1.png', 
-              '/furnitures/bed/bed4/2/2.png',
-            '/furnitures/bed/bed4/2/3.png']
+            color: '#811147',
+            image: ['/furnitures/singleSofa/singleSofa4/2/1.png', 
+              '/furnitures/singleSofa/singleSofa4/2/2.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed4/3/1.png', 
-              '/furnitures/bed/bed4/3/2.png',
-            '/furnitures/bed/bed4/3/3.png']
+            color: '#658662',
+            image: ['/furnitures/singleSofa/singleSofa4/3/1.png', 
+              '/furnitures/singleSofa/singleSofa4/3/2.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed4/4/1.png', 
-              '/furnitures/bed/bed4/4/2.png',
-            '/furnitures/bed/bed4/4/3.png']
+            color: '#D95803',
+            image: ['/furnitures/singleSofa/singleSofa4/4/1.png', 
+              '/furnitures/singleSofa/singleSofa4/4/2.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/5/1.png', 
-              '/furnitures/bed/bed4/5/2.png',
-            '/furnitures/bed/bed4/5/3.png']
+            color: '#DC243F',
+            image: ['/furnitures/singleSofa/singleSofa4/5/1.png', 
+              '/furnitures/singleSofa/singleSofa4/5/2.png']
           },
         ]
       },
@@ -882,38 +862,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/1/1.png', 
-              '/furnitures/bed/bed5/1/2.png',
-            '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
+            color: '#606481',
+            image: ['/furnitures/singleSofa/singleSofa5/1/1.png', 
+              '/furnitures/singleSofa/singleSofa5/1/2.png','/furnitures/singleSofa/singleSofa5/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed5/2/1.png', 
-              '/furnitures/bed/bed5/2/2.png',
-            '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
+            color: '#6E0A3E',
+            image: ['/furnitures/singleSofa/singleSofa5/2/1.png', 
+              '/furnitures/singleSofa/singleSofa5/2/2.png','/furnitures/singleSofa/singleSofa5/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed5/3/1.png', 
-              '/furnitures/bed/bed5/3/2.png',
-            '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
+            color: '#5D7456',
+            image: ['/furnitures/singleSofa/singleSofa5/3/1.png', 
+              '/furnitures/singleSofa/singleSofa5/3/2.png','/furnitures/singleSofa/singleSofa5/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed5/4/1.png', 
-              '/furnitures/bed/bed5/4/2.png',
-            '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
+            color: '#C24106',
+            image: ['/furnitures/singleSofa/singleSofa5/4/1.png', 
+              '/furnitures/singleSofa/singleSofa5/4/2.png','/furnitures/singleSofa/singleSofa5/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/5/1.png', 
-              '/furnitures/bed/bed5/5/2.png',
-            '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
+            color: '#BF1233',
+            image: ['/furnitures/singleSofa/singleSofa5/5/1.png', 
+              '/furnitures/singleSofa/singleSofa5/5/2.png','/furnitures/singleSofa/singleSofa5/5/3.png']
           },
         ]
       },
@@ -937,38 +912,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/1/2.png',
-            '/furnitures/bed/bed1/1/3.png']
+            color: '#595757',
+            image: ['/furnitures/sofaSet/sofaSet1/1/1.png', 
+              '/furnitures/sofaSet/sofaSet1/1/2.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed1/2/1.png', 
-              '/furnitures/bed/bed1/2/2.png',
-            '/furnitures/bed/bed1/2/3.png']
+            color: '#68093B',
+            image: ['/furnitures/sofaSet/sofaSet1/2/1.png', 
+              '/furnitures/sofaSet/sofaSet1/2/2.png']
           },
           {
             id: 3,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/3/1.png', 
-              '/furnitures/bed/bed1/3/2.png',
-            '/furnitures/bed/bed1/3/3.png']
+            color: '#B73D02',
+            image: ['/furnitures/sofaSet/sofaSet1/3/1.png', 
+              '/furnitures/sofaSet/sofaSet1/3/2.png']
           },
           {
             id: 4,
-            color: 'ore',
-            image: ['/furnitures/bed/bed1/4/1.png', 
-              '/furnitures/bed/bed1/4/2.png',
-            '/furnitures/bed/bed1/4/3.png']
+            color: '#6565AC',
+            image: ['/furnitures/sofaSet/sofaSet1/4/1.png', 
+              '/furnitures/sofaSet/sofaSet1/4/2.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/5/2.png',
-            '/furnitures/bed/bed1/5/3.png']
+            color: '#4B0192',
+            image: ['/furnitures/sofaSet/sofaSet1/5/1.png', 
+              '/furnitures/sofaSet/sofaSet1/5/2.png']
           }
         ]
       },
@@ -984,38 +954,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
+            color: '#522D03',
+            image: ['/furnitures/sofaSet/sofaSet2/1/1.png', 
+              '/furnitures/sofaSet/sofaSet2/1/2.png','/furnitures/sofaSet/sofaSet2/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed2/2/1.png', 
-              '/furnitures/bed/bed2/2/2.png',
-            '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
+            color: '#5A31A5',
+            image: ['/furnitures/sofaSet/sofaSet2/2/1.png', 
+              '/furnitures/sofaSet/sofaSet2/2/2.png','/furnitures/sofaSet/sofaSet2/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed2/3/1.png', 
-              '/furnitures/bed/bed2/3/2.png',
-            '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
+            color: '#0E305B',
+            image: ['/furnitures/sofaSet/sofaSet2/3/1.png', 
+              '/furnitures/sofaSet/sofaSet2/3/2.png','/furnitures/sofaSet/sofaSet2/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed2/4/1.png', 
-              '/furnitures/bed/bed2/4/2.png',
-            '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
+            color: '#360420',
+            image: ['/furnitures/sofaSet/sofaSet2/4/1.png', 
+              '/furnitures/sofaSet/sofaSet2/4/2.png','/furnitures/sofaSet/sofaSet2/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/5/1.png', 
-              '/furnitures/bed/bed2/5/2.png',
-            '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
+            color: '#7D0919',
+            image: ['/furnitures/sofaSet/sofaSet2/5/1.png', 
+              '/furnitures/sofaSet/sofaSet2/5/2.png','/furnitures/sofaSet/sofaSet2/5/3.png']
           },
         ]
       },
@@ -1031,38 +996,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+            color: '#A9A19B',
+            image: ['/furnitures/sofaSet/sofaSet3/1/1.png', 
+              '/furnitures/sofaSet/sofaSet3/1/2.png','/furnitures/sofaSet/sofaSet3/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed3/2/1.png', 
-              '/furnitures/bed/bed3/2/2.png',
-            '/furnitures/bed/bed3/2/3.png']
+            color: '#E5AE4E',
+            image: ['/furnitures/sofaSet/sofaSet3/2/1.png', 
+              '/furnitures/sofaSet/sofaSet3/2/2.png','/furnitures/sofaSet/sofaSet3/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed3/3/1.png', 
-              '/furnitures/bed/bed3/3/2.png',
-            '/furnitures/bed/bed3/3/3.png']
+            color: '#A03B5D',
+            image: ['/furnitures/sofaSet/sofaSet3/3/1.png', 
+              '/furnitures/sofaSet/sofaSet3/3/2.png','/furnitures/sofaSet/sofaSet3/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed3/4/1.png', 
-              '/furnitures/bed/bed3/4/2.png',
-            '/furnitures/bed/bed3/4/3.png']
+            color: '#E24030',
+            image: ['/furnitures/sofaSet/sofaSet3/4/1.png', 
+              '/furnitures/sofaSet/sofaSet3/4/2.png','/furnitures/sofaSet/sofaSet3/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/5/1.png', 
-              '/furnitures/bed/bed3/5/2.png',
-            '/furnitures/bed/bed3/5/3.png']
+            color: '#E5CA8F',
+            image: ['/furnitures/sofaSet/sofaSet3/5/1.png', 
+              '/furnitures/sofaSet/sofaSet3/5/2.png','/furnitures/sofaSet/sofaSet3/5/3.png']
           },
         ]
       },
@@ -1078,38 +1038,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/1/1.png', 
-              '/furnitures/bed/bed4/1/2.png',
-            '/furnitures/bed/bed4/1/3.png']
+            color: '#576175',
+            image: ['/furnitures/sofaSet/sofaSet4/1/1.png', 
+              '/furnitures/sofaSet/sofaSet4/1/2.png','/furnitures/sofaSet/sofaSet4/1/3.png','/furnitures/sofaSet/sofaSet4/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed4/2/1.png', 
-              '/furnitures/bed/bed4/2/2.png',
-            '/furnitures/bed/bed4/2/3.png']
+            color: '#987BAC',
+            image: ['/furnitures/sofaSet/sofaSet4/2/1.png', 
+              '/furnitures/sofaSet/sofaSet4/2/2.png','/furnitures/sofaSet/sofaSet4/2/3.png','/furnitures/sofaSet/sofaSet4/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed4/3/1.png', 
-              '/furnitures/bed/bed4/3/2.png',
-            '/furnitures/bed/bed4/3/3.png']
+            color: '#00ABD5',
+            image: ['/furnitures/sofaSet/sofaSet4/3/1.png', 
+              '/furnitures/sofaSet/sofaSet4/3/2.png','/furnitures/sofaSet/sofaSet4/3/3.png','/furnitures/sofaSet/sofaSet4/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed4/4/1.png', 
-              '/furnitures/bed/bed4/4/2.png',
-            '/furnitures/bed/bed4/4/3.png']
+            color: '#640835',
+            image: ['/furnitures/sofaSet/sofaSet4/4/1.png', 
+              '/furnitures/sofaSet/sofaSet4/4/2.png','/furnitures/sofaSet/sofaSet4/4/3.png','/furnitures/sofaSet/sofaSet4/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/5/1.png', 
-              '/furnitures/bed/bed4/5/2.png',
-            '/furnitures/bed/bed4/5/3.png']
+            color: '#BA3F04',
+            image: ['/furnitures/sofaSet/sofaSet4/5/1.png', 
+              '/furnitures/sofaSet/sofaSet4/5/2.png','/furnitures/sofaSet/sofaSet4/5/3.png','/furnitures/sofaSet/sofaSet4/5/4.png']
           },
         ]
       },
@@ -1125,38 +1080,33 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/1/1.png', 
-              '/furnitures/bed/bed5/1/2.png',
-            '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
+            color: '#948A7F',
+            image: ['/furnitures/sofaSet/sofaSet5/1/1.png', 
+              '/furnitures/sofaSet/sofaSet5/1/2.png','/furnitures/sofaSet/sofaSet5/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed5/2/1.png', 
-              '/furnitures/bed/bed5/2/2.png',
-            '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
+            color: '#850E49',
+            image: ['/furnitures/sofaSet/sofaSet5/2/1.png', 
+              '/furnitures/sofaSet/sofaSet5/2/2.png','/furnitures/sofaSet/sofaSet5/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed5/3/1.png', 
-              '/furnitures/bed/bed5/3/2.png',
-            '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
+            color: '#00C0D8',
+            image: ['/furnitures/sofaSet/sofaSet5/3/1.png', 
+              '/furnitures/sofaSet/sofaSet5/3/2.png','/furnitures/sofaSet/sofaSet5/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed5/4/1.png', 
-              '/furnitures/bed/bed5/4/2.png',
-            '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
+            color: '#CD872D',
+            image: ['/furnitures/sofaSet/sofaSet5/4/1.png', 
+              '/furnitures/sofaSet/sofaSet5/4/2.png','/furnitures/sofaSet/sofaSet5/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/5/1.png', 
-              '/furnitures/bed/bed5/5/2.png',
-            '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
+            color: '#658664',
+            image: ['/furnitures/sofaSet/sofaSet5/5/1.png', 
+              '/furnitures/sofaSet/sofaSet5/5/2.png','/furnitures/sofaSet/sofaSet5/5/3.png']
           },
         ]
       },
@@ -1180,38 +1130,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/1/2.png',
-            '/furnitures/bed/bed1/1/3.png']
+            color: '#BFBAB0',
+            image: ['/furnitures/table/table1/1/1.png', 
+              '/furnitures/table/table1/1/2.png',
+            '/furnitures/table/table1/1/3.png', '/furnitures/table/table1/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed1/2/1.png', 
-              '/furnitures/bed/bed1/2/2.png',
-            '/furnitures/bed/bed1/2/3.png']
+            color: '#EA9404',
+            image: ['/furnitures/table/table1/2/1.png', 
+              '/furnitures/table/table1/2/2.png',
+            '/furnitures/table/table1/2/3.png', '/furnitures/table/table1/2/4.png']
           },
           {
             id: 3,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/3/1.png', 
-              '/furnitures/bed/bed1/3/2.png',
-            '/furnitures/bed/bed1/3/3.png']
+            color: '#B55F6C',
+            image: ['/furnitures/table/table1/3/1.png', 
+              '/furnitures/table/table1/3/2.png',
+            '/furnitures/table/table1/3/3.png', '/furnitures/table/table1/3/4.png']
           },
           {
             id: 4,
-            color: 'ore',
-            image: ['/furnitures/bed/bed1/4/1.png', 
-              '/furnitures/bed/bed1/4/2.png',
-            '/furnitures/bed/bed1/4/3.png']
+            color: '#A0B58C',
+            image: ['/furnitures/table/table1/4/1.png', 
+              '/furnitures/table/table1/4/2.png',
+            '/furnitures/table/table1/4/3.png', '/furnitures/table/table1/4/4.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/5/2.png',
-            '/furnitures/bed/bed1/5/3.png']
+            color: '#7F9F9B',
+            image: ['/furnitures/table/table1/5/1.png', 
+              '/furnitures/table/table1/5/2.png',
+            '/furnitures/table/table1/5/3.png', '/furnitures/table/table1/5/4.png']
           }
         ]
       },
@@ -1227,38 +1177,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
+            color: '#765F52',
+            image: ['/furnitures/table/table2/1/1.png', 
+              '/furnitures/table/table2/1/2.png',
+            '/furnitures/table/table2/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed2/2/1.png', 
-              '/furnitures/bed/bed2/2/2.png',
-            '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
+            color: '#2F4C77',
+            image: ['/furnitures/table/table2/2/1.png', 
+              '/furnitures/table/table2/2/2.png',
+            '/furnitures/table/table2/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed2/3/1.png', 
-              '/furnitures/bed/bed2/3/2.png',
-            '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
+            color: '#610A37',
+            image: ['/furnitures/table/table2/3/1.png', 
+              '/furnitures/table/table2/3/2.png',
+            '/furnitures/table/table2/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed2/4/1.png', 
-              '/furnitures/bed/bed2/4/2.png',
-            '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
+            color: '#5C6D4E',
+            image: ['/furnitures/table/table2/4/1.png', 
+              '/furnitures/table/table2/4/2.png',
+            '/furnitures/table/table2/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/5/1.png', 
-              '/furnitures/bed/bed2/5/2.png',
-            '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
+            color: '#B1102D',
+            image: ['/furnitures/table/table2/5/1.png', 
+              '/furnitures/table/table2/5/2.png',
+            '/furnitures/table/table2/5/3.png']
           },
         ]
       },
@@ -1274,38 +1224,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+            color: '#4A3028',
+            image: ['/furnitures/table/table3/1/1.png', 
+              '/furnitures/table/table3/1/2.png',
+            '/furnitures/table/table3/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed3/2/1.png', 
-              '/furnitures/bed/bed3/2/2.png',
-            '/furnitures/bed/bed3/2/3.png']
+            color: '#390120',
+            image: ['/furnitures/table/table3/2/1.png', 
+              '/furnitures/table/table3/2/2.png',
+            '/furnitures/table/table3/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed3/3/1.png', 
-              '/furnitures/bed/bed3/3/2.png',
-            '/furnitures/bed/bed3/3/3.png']
+            color: '#4D5034',
+            image: ['/furnitures/table/table3/3/1.png', 
+              '/furnitures/table/table3/3/2.png',
+            '/furnitures/table/table3/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed3/4/1.png', 
-              '/furnitures/bed/bed3/4/2.png',
-            '/furnitures/bed/bed3/4/3.png']
+            color: '#D44C01',
+            image: ['/furnitures/table/table3/4/1.png', 
+              '/furnitures/table/table3/4/2.png',
+            '/furnitures/table/table3/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/5/1.png', 
-              '/furnitures/bed/bed3/5/2.png',
-            '/furnitures/bed/bed3/5/3.png']
+            color: '#87091B',
+            image: ['/furnitures/table/table3/5/1.png', 
+              '/furnitures/table/table3/5/2.png',
+            '/furnitures/table/table3/5/3.png']
           },
         ]
       },
@@ -1321,38 +1271,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/1/1.png', 
-              '/furnitures/bed/bed4/1/2.png',
-            '/furnitures/bed/bed4/1/3.png']
+            color: '#734D3C',
+            image: ['/furnitures/table/table4/1/1.png', 
+              '/furnitures/table/table4/1/2.png',
+            '/furnitures/table/table4/1/3.png','/furnitures/table/table4/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed4/2/1.png', 
-              '/furnitures/bed/bed4/2/2.png',
-            '/furnitures/bed/bed4/2/3.png']
+            color: '#540731',
+            image: ['/furnitures/table/table4/2/1.png', 
+              '/furnitures/table/table4/2/2.png',
+            '/furnitures/table/table4/2/3.png','/furnitures/table/table4/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed4/3/1.png', 
-              '/furnitures/bed/bed4/3/2.png',
-            '/furnitures/bed/bed4/3/3.png']
+            color: '#B93D00',
+            image: ['/furnitures/table/table4/3/1.png', 
+              '/furnitures/table/table4/3/2.png',
+            '/furnitures/table/table4/3/3.png','/furnitures/table/table4/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed4/4/1.png', 
-              '/furnitures/bed/bed4/4/2.png',
-            '/furnitures/bed/bed4/4/3.png']
+            color: '#566446',
+            image: ['/furnitures/table/table4/4/1.png', 
+              '/furnitures/table/table4/4/2.png',
+            '/furnitures/table/table4/4/3.png','/furnitures/table/table4/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/5/1.png', 
-              '/furnitures/bed/bed4/5/2.png',
-            '/furnitures/bed/bed4/5/3.png']
+            color: '#A60B28',
+            image: ['/furnitures/table/table4/5/1.png', 
+              '/furnitures/table/table4/5/2.png',
+            '/furnitures/table/table4/5/3.png','/furnitures/table/table4/5/4.png']
           },
         ]
       },
@@ -1368,38 +1318,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/1/1.png', 
-              '/furnitures/bed/bed5/1/2.png',
-            '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
+            color: '#553D35',
+            image: ['/furnitures/table/table5/1/1.png', 
+              '/furnitures/table/table5/1/2.png',
+            '/furnitures/table/table5/1/3.png','/furnitures/table/table5/1/4.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed5/2/1.png', 
-              '/furnitures/bed/bed5/2/2.png',
-            '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
+            color: '#440626',
+            image: ['/furnitures/table/table5/2/1.png', 
+              '/furnitures/table/table5/2/2.png',
+            '/furnitures/table/table5/2/3.png','/furnitures/table/table5/2/4.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed5/3/1.png', 
-              '/furnitures/bed/bed5/3/2.png',
-            '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
+            color: '#B16573',
+            image: ['/furnitures/table/table5/3/1.png', 
+              '/furnitures/table/table5/3/2.png',
+            '/furnitures/table/table5/3/3.png','/furnitures/table/table5/3/4.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed5/4/1.png', 
-              '/furnitures/bed/bed5/4/2.png',
-            '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
+            color: '#474861',
+            image: ['/furnitures/table/table5/4/1.png', 
+              '/furnitures/table/table5/4/2.png',
+            '/furnitures/table/table5/4/3.png','/furnitures/table/table5/4/4.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/5/1.png', 
-              '/furnitures/bed/bed5/5/2.png',
-            '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
+            color: '#680183',
+            image: ['/furnitures/table/table5/5/1.png', 
+              '/furnitures/table/table5/5/2.png',
+            '/furnitures/table/table5/5/3.png','/furnitures/table/table5/5/4.png']
           },
         ]
       },
@@ -1423,38 +1373,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/1/2.png',
-            '/furnitures/bed/bed1/1/3.png']
+            color: '#5B6D4E',
+            image: ['/furnitures/teaTable/teaTable1/1/1.png', 
+              '/furnitures/teaTable/teaTable1/1/2.png',
+            '/furnitures/teaTable/teaTable1/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed1/2/1.png', 
-              '/furnitures/bed/bed1/2/2.png',
-            '/furnitures/bed/bed1/2/3.png']
+            color: '#855548',
+            image: ['/furnitures/teaTable/teaTable1/2/1.png', 
+              '/furnitures/teaTable/teaTable1/2/2.png',
+            '/furnitures/teaTable/teaTable1/2/3.png']
           },
           {
             id: 3,
-            color: 'blue',
-            image: ['/furnitures/bed/bed1/3/1.png', 
-              '/furnitures/bed/bed1/3/2.png',
-            '/furnitures/bed/bed1/3/3.png']
+            color: '#640837',
+            image: ['/furnitures/teaTable/teaTable1/3/1.png', 
+              '/furnitures/teaTable/teaTable1/3/2.png',
+            '/furnitures/teaTable/teaTable1/3/3.png']
           },
           {
             id: 4,
-            color: 'ore',
-            image: ['/furnitures/bed/bed1/4/1.png', 
-              '/furnitures/bed/bed1/4/2.png',
-            '/furnitures/bed/bed1/4/3.png']
+            color: '#E84E02',
+            image: ['/furnitures/teaTable/teaTable1/4/1.png', 
+              '/furnitures/teaTable/teaTable1/4/2.png',
+            '/furnitures/teaTable/teaTable1/4/3.png']
           },
           {
             id: 5,
-            color: 'red',
-            image: ['/furnitures/bed/bed1/1/1.png', 
-              '/furnitures/bed/bed1/5/2.png',
-            '/furnitures/bed/bed1/5/3.png']
+            color: '#8A6750',
+            image: ['/furnitures/teaTable/teaTable1/5/1.png', 
+              '/furnitures/teaTable/teaTable1/5/2.png',
+            '/furnitures/teaTable/teaTable1/5/3.png']
           }
         ]
       },
@@ -1470,38 +1420,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png', '/furnitures/bed/bed2/1/4.png']
+            color: '#9E8A83',
+            image: ['/furnitures/teaTable/teaTable2/1/1.png', 
+              '/furnitures/teaTable/teaTable2/1/2.png',
+            '/furnitures/teaTable/teaTable2/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed2/2/1.png', 
-              '/furnitures/bed/bed2/2/2.png',
-            '/furnitures/bed/bed2/2/3.png', '/furnitures/bed/bed2/2/4.png']
+            color: '#922152',
+            image: ['/furnitures/teaTable/teaTable2/2/1.png', 
+              '/furnitures/teaTable/teaTable2/2/2.png',
+            '/furnitures/teaTable/teaTable2/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed2/3/1.png', 
-              '/furnitures/bed/bed2/3/2.png',
-            '/furnitures/bed/bed2/3/3.png', '/furnitures/bed/bed2/3/4.png']
+            color: '#749370',
+            image: ['/furnitures/teaTable/teaTable2/3/1.png', 
+              '/furnitures/teaTable/teaTable2/3/2.png',
+            '/furnitures/teaTable/teaTable2/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed2/4/1.png', 
-              '/furnitures/bed/bed2/4/2.png',
-            '/furnitures/bed/bed2/4/3.png', '/furnitures/bed/bed2/4/4.png']
+            color: '#DE6204',
+            image: ['/furnitures/teaTable/teaTable2/4/1.png', 
+              '/furnitures/teaTable/teaTable2/4/2.png',
+            '/furnitures/teaTable/teaTable2/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed2/5/1.png', 
-              '/furnitures/bed/bed2/5/2.png',
-            '/furnitures/bed/bed2/5/3.png', '/furnitures/bed/bed2/5/4.png']
+            color: '#DE2538',
+            image: ['/furnitures/teaTable/teaTable2/5/1.png', 
+              '/furnitures/teaTable/teaTable2/5/2.png',
+            '/furnitures/teaTable/teaTable2/5/3.png']
           },
         ]
       },
@@ -1517,38 +1467,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/1/1.png', 
-              '/furnitures/bed/bed2/1/2.png',
-            '/furnitures/bed/bed2/1/3.png']
+            color: '#46322B',
+            image: ['/furnitures/teaTable/teaTable3/1/1.png', 
+              '/furnitures/teaTable/teaTable3/1/2.png',
+            '/furnitures/teaTable/teaTable3/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed3/2/1.png', 
-              '/furnitures/bed/bed3/2/2.png',
-            '/furnitures/bed/bed3/2/3.png']
+            color: '#33041F',
+            image: ['/furnitures/teaTable/teaTable3/2/1.png', 
+              '/furnitures/teaTable/teaTable3/3/2.png',
+            '/furnitures/teaTable/teaTable3/3/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed3/3/1.png', 
-              '/furnitures/bed/bed3/3/2.png',
-            '/furnitures/bed/bed3/3/3.png']
+            color: '#4B492C',
+            image: ['/furnitures/teaTable/teaTable3/3/1.png', 
+              '/furnitures/teaTable/teaTable3/3/2.png',
+            '/furnitures/teaTable/teaTable3/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed3/4/1.png', 
-              '/furnitures/bed/bed3/4/2.png',
-            '/furnitures/bed/bed3/4/3.png']
+            color: '#33343D',
+            image: ['/furnitures/teaTable/teaTable3/4/1.png', 
+              '/furnitures/teaTable/teaTable3/4/2.png',
+            '/furnitures/teaTable/teaTable3/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed3/5/1.png', 
-              '/furnitures/bed/bed3/5/2.png',
-            '/furnitures/bed/bed3/5/3.png']
+            color: '#0E335B',
+            image: ['/furnitures/teaTable/teaTable3/5/1.png', 
+              '/furnitures/teaTable/teaTable3/5/2.png',
+            '/furnitures/teaTable/teaTable3/5/3.png']
           },
         ]
       },
@@ -1564,38 +1514,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/1/1.png', 
-              '/furnitures/bed/bed4/1/2.png',
-            '/furnitures/bed/bed4/1/3.png']
+            color: '#A18E87',
+            image: ['/furnitures/teaTable/teaTable4/1/1.png', 
+              '/furnitures/teaTable/teaTable4/1/2.png',
+            '/furnitures/teaTable/teaTable4/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed4/2/1.png', 
-              '/furnitures/bed/bed4/2/2.png',
-            '/furnitures/bed/bed4/2/3.png']
+            color: '#DD3034',
+            image: ['/furnitures/teaTable/teaTable4/2/1.png', 
+              '/furnitures/teaTable/teaTable4/2/2.png',
+            '/furnitures/teaTable/teaTable4/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed4/3/1.png', 
-              '/furnitures/bed/bed4/3/2.png',
-            '/furnitures/bed/bed4/3/3.png']
+            color: '#533116',
+            image: ['/furnitures/teaTable/teaTable4/3/1.png', 
+              '/furnitures/teaTable/teaTable4/3/2.png',
+            '/furnitures/teaTable/teaTable4/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed4/4/1.png', 
-              '/furnitures/bed/bed4/4/2.png',
-            '/furnitures/bed/bed4/4/3.png']
+            color: '#4D4B2E',
+            image: ['/furnitures/teaTable/teaTable4/4/1.png', 
+              '/furnitures/teaTable/teaTable4/4/2.png',
+            '/furnitures/teaTable/teaTable4/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed4/5/1.png', 
-              '/furnitures/bed/bed4/5/2.png',
-            '/furnitures/bed/bed4/5/3.png']
+            color: '#2D051E',
+            image: ['/furnitures/teaTable/teaTable4/5/1.png', 
+              '/furnitures/teaTable/teaTable4/5/2.png',
+            '/furnitures/teaTable/teaTable4/5/3.png']
           },
         ]
       },
@@ -1611,38 +1561,38 @@ export const furniture = [
         colorItem: [
           {
             id: 1,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/1/1.png', 
-              '/furnitures/bed/bed5/1/2.png',
-            '/furnitures/bed/bed5/1/3.png', '/furnitures/bed/bed5/1/4.png',]
+            color: '#6C6361',
+            image: ['/furnitures/teaTable/teaTable5/1/1.png', 
+              '/furnitures/teaTable/teaTable5/1/2.png',
+            '/furnitures/teaTable/teaTable5/1/3.png']
           },
           {
             id: 2,
-            color: 'yellow',
-            image: ['/furnitures/bed/bed5/2/1.png', 
-              '/furnitures/bed/bed5/2/2.png',
-            '/furnitures/bed/bed5/2/3.png', '/furnitures/bed/bed5/2/4.png']
+            color: '#314975',
+            image: ['/furnitures/teaTable/teaTable5/2/1.png', 
+              '/furnitures/teaTable/teaTable5/2/2.png',
+            '/furnitures/teaTable/teaTable5/2/3.png']
           },
           {
             id: 3,
-            color: 'black',
-            image: ['/furnitures/bed/bed5/3/1.png', 
-              '/furnitures/bed/bed5/3/2.png',
-            '/furnitures/bed/bed5/3/3.png', '/furnitures/bed/bed5/3/4.png']
+            color: '#5A0632',
+            image: ['/furnitures/teaTable/teaTable5/3/1.png', 
+              '/furnitures/teaTable/teaTable5/3/2.png',
+            '/furnitures/teaTable/teaTable5/3/3.png']
           },
           {
             id: 4,
-            color: 'orange',
-            image: ['/furnitures/bed/bed5/4/1.png', 
-              '/furnitures/bed/bed5/4/2.png',
-            '/furnitures/bed/bed5/4/3.png', '/furnitures/bed/bed5/4/4.png']
+            color: '#546446',
+            image: ['/furnitures/teaTable/teaTable5/4/1.png', 
+              '/furnitures/teaTable/teaTable5/4/2.png',
+            '/furnitures/teaTable/teaTable5/4/3.png']
           },
           {
             id: 5,
-            color: 'blue',
-            image: ['/furnitures/bed/bed5/5/1.png', 
-              '/furnitures/bed/bed5/5/2.png',
-            '/furnitures/bed/bed5/5/3.png', '/furnitures/bed/bed5/5/3.png']
+            color: '#AD3603',
+            image: ['/furnitures/teaTable/teaTable5/5/1.png', 
+              '/furnitures/teaTable/teaTable5/5/2.png',
+            '/furnitures/teaTable/teaTable5/5/3.png']
           },
         ]
       },
