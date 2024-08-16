@@ -13,13 +13,13 @@ import { useEffect, useState } from 'react';
 const Navbar = () => {
 
   // pathname
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   // toggle button
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   // window scroll
-  const [scrollData, setScrollData] = useState(false)
+  const [scrollData, setScrollData] = useState(false);
 
   // scroll event function
   useEffect(() => {
@@ -96,6 +96,7 @@ const Navbar = () => {
           <ul className='flex items-center justify-center gap-6 mt-5'>
             <li className='text-lg'><Link href="/cart" onClick={() => setOpen(false)}><FaShoppingCart></FaShoppingCart></Link></li>
             <li className='text-lg'><Link href="/profile" onClick={() => setOpen(false)}><MdPerson></MdPerson></Link></li>
+            
           </ul>
           {/* icon section end */}
           </div>

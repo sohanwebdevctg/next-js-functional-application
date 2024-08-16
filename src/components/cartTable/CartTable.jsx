@@ -1,114 +1,25 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MdInvertColors } from "react-icons/md";
 
-const tableData = [
-  {
-    id: 1,
-    name: "chair",
-    quantity: 3,
-    price: 30,
-    color: "black",
-  },
-  {
-    id: 2,
-    name: "bed",
-    quantity: 2,
-    price: 25,
-    color: "black",
-  },
-  {
-    id: 3,
-    name: "sofa",
-    quantity: 8,
-    price: 42,
-    color: "black",
-  },
-  {
-    id: 4,
-    name: "table",
-    quantity: 1,
-    price: 30,
-    color: "black",
-  },
-  {
-    id: 5,
-    name: "chair",
-    quantity: 2,
-    price: 35,
-    color: "black",
-  },
-  {
-    id: 6,
-    name: "sofa",
-    quantity: 2,
-    price: 30,
-    color: "black",
-  },
-  {
-    id: 7,
-    name: "bed",
-    quantity: 6,
-    price: 130,
-    color: "black",
-  },
-  {
-    id: 8,
-    name: "table",
-    quantity: 9,
-    price: 180,
-    color: "black",
-  },
-  {
-    id: 9,
-    name: "bed",
-    quantity: 4,
-    price: 180,
-    color: "black",
-  },
-];
 
 const CartTable = () => {
-  const [preData, setPreData] = useState(tableData);
-  const [storeData, setStoreData] = useState(preData);
 
-  const [searchName, setSearchName] = useState("");
-  const [searchQuantity, setSearchQuantity] = useState("");
-  const [searchPrice, setSearchPrice] = useState("");
+  //cartData set in state
+  const [cartData, setCartData] = useState([]);
 
-  // name function
-  const handleNameChange = (event) => {
-    setSearchName(event.target.value);
-    searchFun();
-  };
+  //get cartData from localStorage
+  useEffect(() => {
+    const data = localStorage.getItem("cartData");
 
-  // quantity function
-  const handleQuantityChange = (event) => {
-    setSearchQuantity(event.target.value);
-    searchFun();
-  };
+    //check this parse
+    if (data) {
+      const parseData = JSON.parse(data);
+      setCartData(parseData);
+    }
+  }, []);
 
-  // price function
-  const handlePriceChange = (event) => {
-    setSearchPrice(event.target.value);
-    searchFun();
-  };
-
-  // search function
-  const searchFun = () => {
-    // const filterData = storeData.filter((item) => {
-    //   const matchName = item.name.toString().toLowerCase().includes(searchName.toString().toLowerCase());
-    //   const matchQuantity = toString(item.quantity) == toString(searchQuantity);
-    //   const matchPrice = toString(item.price) === toString(searchPrice);
-    //   return matchName && matchQuantity && matchPrice;
-    // })
-    // setStoreData(filterData)
-
-    const filterData = preData.filter((item) => {
-      item.name.toLowerCase().includes(searchName.trim().toLowerCase());
-    });
-    console.log(filterData);
-  };
+  console.log(cartData);
 
   return (
     <div className="my-10 px-4">
@@ -121,8 +32,6 @@ const CartTable = () => {
               <li className="w-full">
                 <input
                   type="text"
-                  onChange={handleNameChange}
-                  value={searchName}
                   placeholder="search product name"
                   className="input input-bordered input-sm w-full"
                 />
@@ -130,8 +39,6 @@ const CartTable = () => {
               <li>
                 <input
                   type="text"
-                  onChange={handleQuantityChange}
-                  value={searchQuantity}
                   placeholder="search quantity"
                   className="input input-bordered input-sm w-full"
                 />
@@ -139,8 +46,6 @@ const CartTable = () => {
               <li>
                 <input
                   type="text"
-                  onChange={handlePriceChange}
-                  value={searchPrice}
                   placeholder="search price"
                   className="input input-bordered input-sm w-full"
                 />
@@ -174,8 +79,8 @@ const CartTable = () => {
             </thead>
             <tbody>
               {/* row 1 */}
-              {storeData.length > 0 ? (
-                storeData.map((data, index) => (
+              {cartData.length > 0 ? (
+                cartData.map((data, index) => (
                   <tr key={data.id} className="hover:bg-red-100 text-center">
                     <td className="xl:text-sm">{++index}</td>
                     <td className="xl:text-sm">Image</td>
@@ -187,7 +92,7 @@ const CartTable = () => {
                     </td>
                     <td className="xl:text-sm">{data.quantity}</td>
                     <td>$ {data.price}</td>
-                    <td>$ {"total"}</td>
+                    <td>$ {data.total}</td>
                     <th>
                       <button className="btn btn-xs bg-red-500 text-white hover:bg-red-500">
                         Delete
