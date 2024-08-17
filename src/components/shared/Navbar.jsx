@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Logo from "../../../public/logo/logo.png";
 import Link from "next/link";
@@ -36,7 +37,6 @@ const Navbar = () => {
     };
   }, []);
 
-  //cartData set in state
   //cartData set in state
   const [cartData, setCartData] = useState([]);
 

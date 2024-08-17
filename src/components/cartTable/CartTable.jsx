@@ -1,12 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MdInvertColors } from "react-icons/md";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CartTable = () => {
   //cartData set in state
   const [cartData, setCartData] = useState([]);
+
+  
+
 
   //get cartData from localStorage
   useEffect(() => {
@@ -21,10 +26,35 @@ const CartTable = () => {
 
   //delete functionality
   const deleteFun = (data) => {
-    const newData = cartData.filter((item) => !(item.id === data.id && item.name === data.name))
-    localStorage.setItem('cartData', JSON.stringify(newData))
-    setCartData(newData)
-  }
+    const newData = cartData.filter(
+      (item) => !(item.id === data.id && item.name === data.name)
+    );
+    localStorage.setItem("cartData", JSON.stringify(newData));
+    setCartData(newData);
+  };
+
+  // modalRef
+  const modalRef = useRef(null);
+
+  //buyFunction
+  const userData = (event) => {
+    event.preventDefault();
+    const data = event.target;
+    const name = data.name.value;
+    const number = data.number.value;
+
+    if(name && number){
+      const newData = localStorage.removeItem('cartData')
+      setCartData(newData);
+      // Close the modal
+      if (modalRef.current) {
+        modalRef.current.close();
+        toast("Successfully Buy");
+      }
+    }
+    
+
+  };
 
   return (
     <div className="my-10 px-4">
@@ -37,13 +67,6 @@ const CartTable = () => {
               <input
                 type="text"
                 placeholder="search product name"
-                className="input input-bordered input-xs sm:input-xs md:input-sm w-[125px] sm:w-28 md:w-full xl:w-full"
-              />
-            </div>
-            <div className="w-full">
-              <input
-                type="text"
-                placeholder="search quantity"
                 className="input input-bordered input-xs sm:input-xs md:input-sm w-[125px] sm:w-28 md:w-full xl:w-full"
               />
             </div>
@@ -63,6 +86,22 @@ const CartTable = () => {
                 <option>Low to High</option>
               </select>
             </div>
+            <div className="w-full">
+              {cartData?.length > 0 ? (
+                <button
+                  onClick={() =>
+                    document.getElementById("my_modal_0").showModal()
+                  }
+                  className="btn btn-sm text-sm bg-green-500 hover:bg-green-500 text-white block w-full text-center"
+                >
+                  Buy
+                </button>
+              ) : (
+                <button className="btn btn-sm text-sm bg-red-500 hover:bg-red-500 text-white block w-full text-center">
+                  Not Buy
+                </button>
+              )}
+            </div>
           </div>
         </div>
         {/* search section end */}
@@ -80,7 +119,7 @@ const CartTable = () => {
               <th>Delete</th>
             </tr>
           </thead>
-          {cartData.length > 0 ? (
+          {cartData?.length > 0 ? (
             <tbody>
               {cartData.map((data, index) => (
                 <tr key={index} className="hover:bg-red-100 text-center">
@@ -135,7 +174,10 @@ const CartTable = () => {
                     ${data.total}
                   </td>
                   <td>
-                    <button className="btn btn-xs bg-red-500 text-white hover:bg-red-500" onClick={() => deleteFun(data)}>
+                    <button
+                      className="btn btn-xs bg-red-500 text-white hover:bg-red-500"
+                      onClick={() => deleteFun(data)}
+                    >
                       Delete
                     </button>
                   </td>
@@ -151,9 +193,27 @@ const CartTable = () => {
           )}
         </table>
         {/* table section end */}
-        {/* modal section start */}
+        {/* form modal section start */}
+        <dialog ref={modalRef} id="my_modal_0" className="modal">
+          <div className="modal-box">
+            <form onSubmit={userData}>
+              <div className="form-control space-y-5">
+                <input type="text" name="name" placeholder="enter your name" className="input input-bordered" required />
+                <input type="number" name="number" placeholder="enter your account number" className="input input-bordered" required />
+              </div>
+              <div className="form-control mt-5">
+                <button className="btn btn-success text-white">Buy</button>
+              </div>
+            </form>
+          </div>
+          <form method="dialog" className="modal-backdrop">
+            <button>close</button>
+          </form>
+        </dialog>
+        {/* form modal section end */}
       </div>
       {/* content section end */}
+      <ToastContainer />
     </div>
   );
 };
