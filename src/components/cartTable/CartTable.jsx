@@ -21,9 +21,10 @@ const CartTable = () => {
 
   //delete functionality
   const deleteFun = (data) => {
-    console.log(data)
+    const newData = cartData.filter((item) => !(item.id === data.id && item.name === data.name))
+    localStorage.setItem('cartData', JSON.stringify(newData))
+    setCartData(newData)
   }
-
 
   return (
     <div className="my-10 px-4">
@@ -70,7 +71,6 @@ const CartTable = () => {
           <thead className="bg-red-500 text-white">
             <tr className="text-center">
               <th>#</th>
-              <th>Id</th>
               <th>Image</th>
               <th>Name</th>
               <th>Color</th>
@@ -87,9 +87,6 @@ const CartTable = () => {
                   <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
                     {++index}
                   </td>
-                  <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
-                    {data.id}
-                  </td>
                   <td
                     className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base "
                     onClick={() =>
@@ -102,7 +99,7 @@ const CartTable = () => {
                     {/* modal section start */}
                     <dialog id={`my_modal_${index}`} className="modal">
                       <div className="modal-box grid grid-cols-3 gap-3">
-                        {data?.image.map((img, index) => (
+                        {data?.image?.map((img, index) => (
                           <Image
                             key={index}
                             src={img}
