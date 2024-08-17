@@ -55,14 +55,6 @@ const SingleProductPage = ({ params, searchParams }) => {
   // color setting
   const [color, setColor] = useState(null);
 
-  // const colorFun = (data) => {
-  //   if(color == null){
-  //     alert('please select a color');
-  //   }else{
-  //     setColor(data)
-  //   }
-  // }
-
   // quantity data
   const [quantity, setQuantity] = useState(1);
 
@@ -83,9 +75,10 @@ const SingleProductPage = ({ params, searchParams }) => {
 
     //get all data from cart
     const cartItem = {
-      image: imageData,
-      color: color === null ? itemData?.colorItem[0]?.color : color,
+      id: color === null ? itemData?.colorItem[0]?.id : color?.id,
       name: itemData.name,
+      image: imageData,
+      color: color === null ? itemData?.colorItem[0]?.color : color?.color,
       quantity: quantity,
       price: itemData?.price,
       total: quantity * itemData?.price,
@@ -205,7 +198,7 @@ const SingleProductPage = ({ params, searchParams }) => {
                         key={index}
                         style={{ color: data.color }}
                         className={` text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl`}
-                        onClick={() => setColor(data.color)}
+                        onClick={() => setColor({color : data.color, id: data.id})}
                       >
                         <MdInvertColors
                           onClick={() => colorImage(data.image)}

@@ -19,7 +19,11 @@ const CartTable = () => {
     }
   }, []);
 
-  console.log(cartData);
+  //delete functionality
+  const deleteFun = (data) => {
+    console.log(data)
+  }
+
 
   return (
     <div className="my-10 px-4">
@@ -66,6 +70,7 @@ const CartTable = () => {
           <thead className="bg-red-500 text-white">
             <tr className="text-center">
               <th>#</th>
+              <th>Id</th>
               <th>Image</th>
               <th>Name</th>
               <th>Color</th>
@@ -82,25 +87,37 @@ const CartTable = () => {
                   <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
                     {++index}
                   </td>
+                  <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
+                    {data.id}
+                  </td>
                   <td
                     className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base "
                     onClick={() =>
                       document.getElementById(`my_modal_${index}`).showModal()
                     }
                   >
-                    <button className="btn btn-xs bg-green-500 text-white hover:bg-green-500">Image</button>
+                    <button className="btn btn-xs bg-green-500 text-white hover:bg-green-500">
+                      Image
+                    </button>
                     {/* modal section start */}
                     <dialog id={`my_modal_${index}`} className="modal">
-          <div className="modal-box grid grid-cols-3 gap-3">
-          {
-                  data?.image.map((img, index) => <Image key={index} src={img} alt="show" width={100} height={100} className="w-full h-28 sm:h-32 md:h-32 lg:h-40 xl:h-40 2xl:h-44 "></Image>)
-                }
-          </div>
-          <form method="dialog" className="modal-backdrop">
-            <button>close</button>
-          </form>
-        </dialog>
-        {/* modal section end */}
+                      <div className="modal-box grid grid-cols-3 gap-3">
+                        {data?.image.map((img, index) => (
+                          <Image
+                            key={index}
+                            src={img}
+                            alt="show"
+                            width={100}
+                            height={100}
+                            className="w-full h-28 sm:h-32 md:h-32 lg:h-40 xl:h-40 2xl:h-44 "
+                          ></Image>
+                        ))}
+                      </div>
+                      <form method="dialog" className="modal-backdrop">
+                        <button>close</button>
+                      </form>
+                    </dialog>
+                    {/* modal section end */}
                   </td>
                   <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
                     {data.name}
@@ -121,7 +138,7 @@ const CartTable = () => {
                     ${data.total}
                   </td>
                   <td>
-                    <button className="btn btn-xs bg-red-500 text-white hover:bg-red-500">
+                    <button className="btn btn-xs bg-red-500 text-white hover:bg-red-500" onClick={() => deleteFun(data)}>
                       Delete
                     </button>
                   </td>
@@ -138,7 +155,6 @@ const CartTable = () => {
         </table>
         {/* table section end */}
         {/* modal section start */}
-        
       </div>
       {/* content section end */}
     </div>

@@ -7,7 +7,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "Bed",
+        name: "Foam Mattress",
         details: 'The plush mattress, cradled by a sturdy wooden frame, promises restful nights. Crisp white sheets beckon, inviting weary bodies to sink into serenity',
         price: 200,
         rating: 4.9,
@@ -54,7 +54,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "Bed",
+        name: "Casper Mattress",
         details: 'A luxurious king-size bed, draped in cascading silk curtains, beckons for indulgence. The plush duvet and crisp white sheets promise a night of unparalleled comfort',
         price: 230,
         rating: 4.3,
@@ -101,7 +101,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "Bed",
+        name: "Purple Mattress",
         details: "The sleek platform bed, a minimalist masterpiece, disappears beneath crisp white linens. Uncluttered and serene, it offers a haven of calm amidst the modern world's chaos",
         price: 100,
         rating: 4.2,
@@ -148,7 +148,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "Bed",
+        name: "Barrel Atwood Bed",
         details: 'Weathered wood whispers stories of countless dreams. A fluffy down comforter, the color of sun-bleached wheat, promises warmth and comfort. Here, the world melts away, replaced by restful slumber',
         price: 260,
         rating: 3.9,
@@ -195,7 +195,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "Bed",
+        name: "Farmhouse Bed",
         details: 'A canopy bed, transformed into a magical haven, shimmers with cascading fairy lights. Soft, billowing curtains frame a dreamland where imagination takes flight and sweet dreams take hold',
         price: 100,
         rating: 4.6,
@@ -250,7 +250,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "Chair",
+        name: "Wishbone Chair",
         details: 'Material (Mesh), Weight Capacity (300 lbs), Adjustable Height (Yes), Lumbar Support (Yes), Armrests (Padded, Adjustable)',
         price: 200,
         rating: 4.9,
@@ -287,7 +287,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "Chair",
+        name: "Pod Hanging Chair",
         details: 'Style (Mid-Century Modern), Material (Upholstered), Color (Navy Blue), Leg Material (Metal), Stackable (Yes)',
         price: 230,
         rating: 4.3,
@@ -324,7 +324,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "Chair",
+        name: "Chesterfield Chair",
         details: ' Design (Racing-inspired), Reclining (Up to 135 degrees), Material (PU Leather), Headrest and Lumbar Support (Included), Adjustable Armrests (3D)',
         price: 100,
         rating: 4.2,
@@ -361,7 +361,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "Chair",
+        name: "Womb Chair",
         details: 'Style (Classic), Material (Genuine Leather), Color (Tan), Deep Seat (Yes), Nailhead Trim (Yes)',
         price: 260,
         rating: 3.9,
@@ -398,7 +398,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "Chair",
+        name: "Ant chair",
         details: ' Material (Canvas), Frame (Aluminum), Weight Capacity (250 lbs), Portable (Folds Flat), Carrying Case (Included)',
         price: 100,
         rating: 4.6,
@@ -443,7 +443,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "DoubleSofa",
+        name: "Leather Sofa",
         details: 'Featuring rolled arms and plush cushions, this timeless design offers a comfortable and inviting seating option for two',
         price: 200,
         rating: 4.9,
@@ -490,7 +490,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "DoubleSofa",
+        name: "Foam Sofa",
         details: 'With clean lines and a sleek silhouette, this contemporary loveseat provides a touch of style to any living space. Perfect for smaller apartments or minimalist living',
         price: 230,
         rating: 4.3,
@@ -537,7 +537,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "DoubleSofa",
+        name: "Luxury Sofa",
         details: 'This versatile loveseat transforms into a comfy bed for unexpected guests, making it ideal for maximizing space in studios or guest rooms',
         price: 100,
         rating: 4.2,
@@ -584,7 +584,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "DoubleSofa",
+        name: "French Gold Sofa",
         details: ' Indulge in ultimate relaxation with this luxurious option. The chaise lounge provides ample space to stretch out, while the loveseat offers comfortable seating for two',
         price: 260,
         rating: 3.9,
@@ -631,7 +631,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "DoubleSofa",
+        name: "Carved Sofa",
         details: 'Kick back and relax with this loveseat featuring reclining seats. Perfect for movie nights or enjoying a good book in ultimate comfort',
         price: 100,
         rating: 4.6,
@@ -686,7 +686,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "SingleSofa",
+        name: "Venice Sofa",
         details: 'Plush velvet envelops a sturdy frame, offering timeless elegance. Deep seat invites curling up with a good book',
         price: 200,
         rating: 4.9,
@@ -728,7 +728,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "SingleSofa",
+        name: "Leather Sofa",
         details: 'Crisp white linen hugs a sleek, low-profile frame. Perfect for minimalist living, it adds a touch of clean-lined sophistication',
         price: 230,
         rating: 4.3,
@@ -770,7 +770,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "SingleSofa",
+        name: "Wooden Single Sofa",
         details: 'Weathered leather whispers tales of comfort. A plush throw blanket adds a warm touch, inviting relaxation in a haven of serenity',
         price: 100,
         rating: 4.2,
@@ -812,7 +812,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "SingleSofa",
+        name: "Fabric Sofa",
         details: ' A bold statement piece, this velvet armchair features a vibrant jewel tone. Its unique design adds a pop of color and personality to any space',
         price: 260,
         rating: 3.9,
@@ -854,7 +854,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "SingleSofa",
+        name: "Burwood Luxury Sofa",
         details: 'This sleek chair effortlessly swivels, offering a touch of playful functionality. Perfect for a reading nook or conversation starter, it invites comfortable lounging',
         price: 100,
         rating: 4.6,
@@ -904,7 +904,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "SofaSet",
+        name: "Fabric SofaSet",
         details: 'Sink into the pillowy comfort of this plush sofa set. Deep cushions and a generous size invite movie nights with loved ones',
         price: 200,
         rating: 4.9,
@@ -946,7 +946,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "SofaSet",
+        name: "Wooden SofaSet",
         details: 'Clean lines and sleek upholstery define this contemporary sofa set. Perfect for open floor plans, it creates a minimalist haven',
         price: 230,
         rating: 4.3,
@@ -988,7 +988,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "SofaSet",
+        name: "Enchant Luxury SofaSet",
         details: 'This inviting sofa set, wrapped in warm chenille, beckons for relaxation. Plush cushions and a matching loveseat create a cozy haven for family gatherings',
         price: 100,
         rating: 4.2,
@@ -1030,7 +1030,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "SofaSet",
+        name: "Seater Fabric Sofa",
         details: 'Indulge in opulence with this luxurious sofa set. Rich leather and intricate detailing create a sophisticated statement piece in any living room',
         price: 260,
         rating: 3.9,
@@ -1072,7 +1072,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "SofaSet",
+        name: "Wool SofaSet",
         details: 'This versatile sectional sofa set offers endless configurations. Relax on the spacious chaise, or create a cozy nook for reading – it adapts to your needs',
         price: 100,
         rating: 4.6,
@@ -1122,7 +1122,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "Table",
+        name: "Study Table",
         details: 'A sturdy wooden table with a timeless design offers a warm and inviting space for meals and gatherings. Tapered legs and a smooth finish exude elegance',
         price: 200,
         rating: 4.9,
@@ -1169,7 +1169,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "Table",
+        name: "Computer Table",
         details: 'This sleek table, crafted from polished glass and chrome, creates a minimalist statement. The clean lines and reflective surface add a touch of contemporary sophistication',
         price: 230,
         rating: 4.3,
@@ -1216,7 +1216,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "Table",
+        name: "Power Table",
         details: 'A reclaimed wood table, boasting a weathered finish, tells stories of time and craftsmanship. Perfect for farmhouse-inspired spaces, it creates a warm and inviting atmosphere',
         price: 100,
         rating: 4.2,
@@ -1263,7 +1263,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "Table",
+        name: "Desk Size Table",
         details: 'This versatile table extends to accommodate large gatherings. Its hidden leaf mechanism ensures a seamless transition from intimate dinners to spacious celebrations',
         price: 260,
         rating: 3.9,
@@ -1310,7 +1310,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "Table",
+        name: "Kids Table",
         details: 'More than just a table, this piece transforms into a coffee table or dining surface. Ideal for studios or small apartments, it maximizes space without sacrificing functionality',
         price: 100,
         rating: 4.6,
@@ -1365,7 +1365,7 @@ export const furniture = [
       // product start
       {
         id: 1,
-        name: "TeaTable",
+        name: "Wooden Coffee Table",
         details: 'A timeless round table with a warm wood finish invites cozy tea parties. Delicate legs and a smooth surface create a feeling of elegance for intimate gatherings',
         price: 200,
         rating: 4.9,
@@ -1412,7 +1412,7 @@ export const furniture = [
       // product start
       {
         id: 2,
-        name: "TeaTable",
+        name: "Chado TeaTable",
         details: 'This sleek nesting table set features two tables in contrasting sizes. Made of polished glass and chrome, it offers a minimalist touch with a playful nesting functionality',
         price: 230,
         rating: 4.3,
@@ -1459,7 +1459,7 @@ export const furniture = [
       // product start
       {
         id: 3,
-        name: "TeaTable",
+        name: "Coffee TeaTable",
         details: ' A reclaimed wood tea table, boasting a natural wood grain and a weathered finish,  adds warmth to any space. Perfect for displaying decorative accents or enjoying a cup of tea in a cozy setting',
         price: 100,
         rating: 4.2,
@@ -1506,7 +1506,7 @@ export const furniture = [
       // product start
       {
         id: 4,
-        name: "TeaTable",
+        name: "LowWood Table",
         details: 'This ingenious tea table features a hidden storage compartment ideal for stowing away magazines, blankets, or tea supplies. Its sleek design seamlessly integrates with your living space',
         price: 260,
         rating: 3.9,
@@ -1553,7 +1553,7 @@ export const furniture = [
       // product start
       {
         id: 5,
-        name: "TeaTable",
+        name: "Mini TeaTable",
         details: 'More than just a tea table, this multifunctional piece features a lift-top mechanism that transforms it into a convenient workspace. Perfect for small apartments, it maximizes space and functionality',
         price: 100,
         rating: 4.6,
