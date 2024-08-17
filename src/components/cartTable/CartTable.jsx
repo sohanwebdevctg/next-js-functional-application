@@ -85,10 +85,22 @@ const CartTable = () => {
                   <td
                     className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base "
                     onClick={() =>
-                      document.getElementById("my_modal_2").showModal()
+                      document.getElementById(`my_modal_${index}`).showModal()
                     }
                   >
                     <button className="btn btn-xs bg-green-500 text-white hover:bg-green-500">Image</button>
+                    {/* modal section start */}
+                    <dialog id={`my_modal_${index}`} className="modal">
+          <div className="modal-box grid grid-cols-3 gap-3">
+          {
+                  data?.image.map((img, index) => <Image key={index} src={img} alt="show" width={100} height={100} className="w-full h-28 sm:h-32 md:h-32 lg:h-40 xl:h-40 2xl:h-44 "></Image>)
+                }
+          </div>
+          <form method="dialog" className="modal-backdrop">
+            <button>close</button>
+          </form>
+        </dialog>
+        {/* modal section end */}
                   </td>
                   <td className="text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-base">
                     {data.name}
@@ -126,21 +138,7 @@ const CartTable = () => {
         </table>
         {/* table section end */}
         {/* modal section start */}
-        <dialog id="my_modal_2" className="modal">
-          <div className="modal-box">
-            {
-              cartData.map((data, index) => <div key={index} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-5 md:gap-3 lg:gap-5">
-                {
-                  data?.image.map((img, index) => <Image key={index} src={img} alt="show" width={100} height={100} className="w-full h-28 sm:h-32 md:h-32 lg:h-40 xl:h-40 2xl:h-44 "></Image>)
-                }
-              </div>)
-            }
-          </div>
-          <form method="dialog" className="modal-backdrop">
-            <button>close</button>
-          </form>
-        </dialog>
-        {/* modal section end */}
+        
       </div>
       {/* content section end */}
     </div>
