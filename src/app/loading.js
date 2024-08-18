@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Loading = () => {
+  return (
+    <div className='flex justify-center items-center h-screen bg-[#F5F5F5]'>
+      {/* loading section start */}
+      <div className='text-center flex items-center'>
+        <p className='text-black text-6xl md:text-9xl'>L</p>
+        <div className='border-dashed p-5 md:p-10 rounded-full border-red-500 border-8 animate-spin'></div>
+        <p className='text-black text-6xl md:text-9xl'>ADING</p>
+      </div>
+      {/* loading section end */}
+    </div>
+  );
+};
+
+export default Loading;
